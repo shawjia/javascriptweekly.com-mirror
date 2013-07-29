@@ -1,0 +1,205 @@
+<html><head>
+  <title>JavaScript Weekly Issue 104 - November 9, 2012</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<style>
+html {  }
+body { font-family: "Helvetica Neue", helvetica, arial, sans-serif; font-size: 14px; margin: 0; padding: 0; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+     body {
+          padding: 10px !important;
+     }
+	#maintable {
+		width: auto !important;
+	}
+}
+.notinarchive { display: none; }
+</style>
+
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+  <h1 class="title" style="margin-top: 0em; padding-top: 0.5em; position: relative; color: #0aa; font-size: 2.9em">JavaScript <img src="http://javascriptweekly.com/cog.png" style="position: absolute; top: 50%; margin-top: -8px" /><div style="width: 38px; height: 1px; display: inline-block"></div>Weekly</h1>
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+  	      <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+  				<input type="hidden" name="list_id" value="596bcf37c5" />
+  			</form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+</div>
+
+<table style="font-family: helvetica, arial, sans-serif;" width="100%" cellpadding="8" cellspacing="0"><tr>
+	<td bgcolor="#ffffff">
+	  
+<table border="0" cellpadding="0" cellspacing="0" width="640" id="maintable" align="center" style="font-family: helvetica, arial, sans-serif; margin-top: 3px">
+	<tr bgcolor="#00aaac"><td>
+<a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/jslogo2.gif" alt="JavaScript Weekly" width="366" height="78" style="margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor="#ffffff"><td>
+	<p style="color: #0aa; font-weight: bold; font-size: 15px; margin-bottom: 0; padding: 0 0px; margin-top: 3px">Issue #104 - November 9, 2012</p>
+	
+	
+
+
+<p style="margin: 1.2em 0px 1.35em 0px; line-height: 1.5em; font-size: 14px">Welcome to issue 104 of <em>JavaScript Weekly</em>. 52 goes into 104 twice so.. we must be 2 years old! Doesn't time fly? No big celebration, but just a huge thank you and lots of appreciation for your help and support :-) - Peter C.</p>
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Featured</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://coding.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/" title="coding.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript">Writing Fast, Memory-Efficient JavaScript</a></strong><br /><span style="font-size: 0.9em">
+Addy Osmani touches on a lot of points including how to optimize JavaScript code for Google's V8 engine and how to look out for memory leaks.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code "><strong><a href="http://maker.github.com/ratchet/" title="maker.github.com/ratchet">Ratchet: iPhone App Prototyping with HTML, CSS and JS</a></strong><br /><span style="font-size: 0.9em">
+Use HTML and JavaScript to produce and connect 'components' that produce convincing iOS protoypes. Tech aside, the way the home page shows off Ratchet's features is awesome (keep scrolling down).
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" headlines"><strong><a href="http://www.environmentsforhumans.com/2012/mobile-javascript-summit/" title="www.environmentsforhumans.com/2012/mobile-javascript-summit">The Mobile JavaScript Summit (November 12, 2012)</a></strong><br /><span style="font-size: 0.9em">
+We've mentioned this online JavaScript conference before but I've just been told you can take 20% off today using the code '20PINTER' (Note: I have no connection with this conference.)
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">From our Sponsor</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><a href="http://www.breezejs.com"><img src="http://s3.cooperpress.com.s3.amazonaws.com/breeze.png" width="125" height="125" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://www.breezejs.com" title="www.breezejs.com">Rich data for JavaScript Apps is a Breeze</a></strong><br /><span style="font-size: 0.9em">When a desktop application moves to HTML/JavaScript, the need for rich data moves with it. Consider BreezeJS for querying, caching, offline, change tracking, object graph navigation, and bulk saves. Make it part of your JavaScript client app stack.</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Reading</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.adobe.com/devnet/html5/articles/getting-started-with-knockoutjs.html" title="www.adobe.com/devnet/html5/articles/getting-started-with-knockoutjs.html">Getting Started With Knockout.js</a></strong><br /><span style="font-size: 0.9em">
+Ryan Niemeyer shows how you can do templating and two-way data-binding using the Knockout.js MVVM library.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.nczonline.net/blog/2012/11/06/ecmascript-6-collections-part-3-weakmaps/" title="www.nczonline.net/blog/2012/11/06/ecmascript-6-collections-part-3-weakmaps">ECMAScript 6 collections, Part 3: WeakMaps</a></strong><br /><span style="font-size: 0.9em">
+The latest in Nicholas C Zakas' series looking at data types in the forthcoming ECMAScript 6.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://blog.remarkablelabs.com/2012/11/11-emberjs-resources-to-get-you-started" title="blog.remarkablelabs.com/2012/11/11-emberjs-resources-to-get-you-started">11 Ember.js Resources to Get You Started</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="https://hacks.mozilla.org/2012/11/tracking-down-memory-leaks-in-node-js-a-node-js-holiday-season/" title="hacks.mozilla.org/2012/11/tracking-down-memory-leaks-in-node-js-a-node-js-holiday-season">Tracking Down Memory Leaks in Node.js</a></strong><br /><span style="font-size: 0.9em">
+The Mozilla Identity team talk about memory leaks in Node.js and using the node-memwatch library to discover and isolate them. Certainly some handy stuff in here.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://blog.synyx.de/2012/11/properly-calculating-time-differences-in-javascript/" title="blog.synyx.de/2012/11/properly-calculating-time-differences-in-javascript">Properly Calculating Time Differences in JavaScript</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://ianww.com/blog/programming/optimizing-three-js-performance-simulating-tens-of-thousands-of-independent-moving-objects/" title="ianww.com/blog/programming/optimizing-three-js-performance-simulating-tens-of-thousands-of-independent-moving-objects">Optimizing Three.js Performance: Simulating Tens Of Thousands Of Independent Moving Objects</a></strong><br /><span style="font-size: 0.9em">
+Ian Webster shows off some techniques he used to optimize his simulation engine, including using Web Workers, Three.js's ParticleSystem, and timed array processing.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://blog.sethladd.com/2012/10/9-dart-myths-debunked.html" title="blog.sethladd.com/2012/10/9-dart-myths-debunked.html">9 Dart Myths Debunked </a></strong><br /><span style="font-size: 0.9em">
+Google's Dart language seems to be one many people dismiss about without checking it out properly, so Dart evangelist Seth Ladd sets out to debunk some of the myths. Myth #1 is "Dart is out to replace JavaScript"...
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://blog.cloudfoundry.org/2012/10/11/using-the-new-scripted-javascript-editor-for-node-js-development/?utm_source=techmeme&utm_medium=link&utm_campaign=cloudfoundry-signup" title="blog.cloudfoundry.org/2012/10/11/using-the-new-scripted-javascript-editor-for-node-js-development/?utm_source=techmeme&utm_medium=link&utm_campaign=cloudfoundry-signup">Using the New Scripted JavaScript Editor for Node.js Development</a></strong><br /><span style="font-size: 0.9em">
+Scripted is a new code editor built using Web technologies. This post gives a good overview and shows how to use it.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://www.kevinwestern.org/blog/2012/11/07/ecmascript-6-a-quick-look-at-proxies/" title="www.kevinwestern.org/blog/2012/11/07/ecmascript-6-a-quick-look-at-proxies">ECMAScript 6 Proxies At A Glance</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="https://blog.netbsd.org/tnf/entry/kernel_drivers_compiled_to_javascript" title="blog.netbsd.org/tnf/entry/kernel_drivers_compiled_to_javascript">NetBSD Kernel Drivers Compiled to Javascript and Run in Browser</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://www.azavea.com/blogs/labs/2012/11/loosely-coupled-reusable-ui-components-in-backbone-js-4/" title="www.azavea.com/blogs/labs/2012/11/loosely-coupled-reusable-ui-components-in-backbone-js-4">Loosely Coupled, Reusable UI Components in Backbone.js</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code "><a href="https://github.com/raganwald/homoiconic/blob/master/2012/11/canonicalization.js.md#readme" title="github.com/raganwald/homoiconic/blob/master/2012/11/canonicalization.js.md#readme">Canonicalization in JavaScript</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  bite"><a href="http://weblogs.asp.net/dwahlin/archive/2012/10/31/getting-started-with-typescript-classes-static-types-and-interfaces.aspx" title="weblogs.asp.net/dwahlin/archive/2012/10/31/getting-started-with-typescript-classes-static-types-and-interfaces.aspx">Getting Started with TypeScript: Classes, Static Types and Interfaces</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Watching</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching"><strong><a href="http://gilesbowkett.blogspot.co.uk/2012/11/my-los-angeles-js-talk-on-automated.html" title="gilesbowkett.blogspot.co.uk/2012/11/my-los-angeles-js-talk-on-automated.html">A Talk On Automated Refactoring</a></strong><br /><span style="font-size: 0.9em">
+Giles Bowkett shows off his intriguing 'Wheatley' semi-automated JavaScript refactoring tool.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching "><strong><a href="http://www.youtube.com/watch?v=DIA4qJCTeYI" title="www.youtube.com/watch?v=DIA4qJCTeYI">jQuery Mobile - Web Delivery for All</a></strong><br /><span style="font-size: 0.9em">
+Marc Grabanski presents an overview of jQuery Mobile, along with reasons to use it and his experiences in using it on real life projects. Well recorded and produced.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  watching"><a href="http://nodetuts.com/" title="nodetuts.com">Node Tuts: Node.js Video Tutorials</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Code and Libraries</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://www.eriwen.com/javascript/introducing-smap-dot-js/" title="www.eriwen.com/javascript/introducing-smap-dot-js">Introducing smap.js: A Forward Polyfill for ES6 Maps</a></strong><br /><span style="font-size: 0.9em">
+smap.js brings ECMAScript 6-style Map objects to non-ES6 compliant environments. The example elegantly shows it off.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://blog.iceddev.com/2012/11/05/node-js-in-chrome/" title="blog.iceddev.com/2012/11/05/node-js-in-chrome">Node.js in Chrome with node-chromify</a></strong><br /><span style="font-size: 0.9em">
+This isn't for your Web site but for Chrome 'apps' and extensions which now have support for listening on TCP sockets.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="http://tech.blog.box.com/2012/11/developing-the-stalker-header/" title="tech.blog.box.com/2012/11/developing-the-stalker-header">Stalker: A JQuery Plugin That Allows Elements to Follow Users on a Page</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code "><strong><a href="http://weltschmerz.github.com/Lactate/" title="weltschmerz.github.com/Lactate">Lactate: A Featureful Static File Server for Node.js</a></strong><br /><span style="font-size: 0.9em">
+Designed with performance in mind and claims to outperform most other solutions out of the box. Lactate uses streams wherever possible, gzips when it can, handles client-side expiration, caches files in memory, and watches files for efficient updates.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code "><strong><a href="https://github.com/melanke/Watch.JS" title="github.com/melanke/Watch.JS">Watch.JS: Watch The Changes of Some Object or Attribute</a></strong><br /><span style="font-size: 0.9em">
+Imagine the possibility of executing a function whenever specific objects change. Watch.JS adds this ability to all objects in JavaScript.
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Jobs</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.dotdigitaljobs.com/?jobid=2" title="www.dotdigitaljobs.com/?jobid=2">JavaScript developer at dotDigital Group (London)</a></strong><br /><span style="font-size: 0.9em">We need you to build the fantastic user interfaces which give our products their easy to use feel. Work on our pure JavaScript applications that seamlessly bridge the gap between client and server operations. Join our agile team to learn and build great things</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.flite.com/careers/open-positions/" title="www.flite.com/careers/open-positions">Front-End JavaScript Engineer (jQuery/Backbone/Underscore) at Flite</a></strong><br /><span style="font-size: 0.9em">We are looking for a top-notch JavaScript Engineer. If you're wanted to build a web platform that is backed by top VCs and used by top-tier clients like SalesForce, LinkedIn, and P&amp;G, while working with some cutting edge technology including Node.js, check us out.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://cooperpress.com/jobs" title="cooperpress.com/jobs">Post a job in a future issue of JavaScript Weekly</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Last but not least..</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code "><strong><a href="http://jsstyle.github.com/?" title="jsstyle.github.com/?">JavaScript Style Badge: Your Code Style Choices as a 'logo.js' Badge</a></strong><br /><span style="font-size: 0.9em">
+A bit of fun, this one. Answer some questions about your preferred JavaScript code style choices and get a special version of the 'logo.js' badge to show them off.
+</span></p>
+  
+
+
+
+</td></tr>
+
+</table>
+
+</td></tr></table>
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+          <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+          <input type="hidden" name="list_id" value="596bcf37c5" />
+        </form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+
+        <p>Want to advertise? <a href="https://cooperpress.com/mediakit2012.pdf">See our media kit for details.</a>
+  <br />Want to post a job? <a href="https://cooperpress.com/jobs">Use our self serve system</a> or reply to this e-mail.
+</div>
+
+</body>
+</html>

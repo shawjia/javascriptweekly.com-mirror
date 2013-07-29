@@ -1,0 +1,77 @@
+<html><head>
+  <title>JavaScript Weekly Issue 5 - December 10, 2010</title>
+</head>
+<body>
+
+<style>
+table { font-family: helvetica, arial, sans-serif; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #04c; }
+</style>
+<table border="0" cellpadding="0" cellspacing="0" width="620" align="center"><tr bgcolor="#ffffff"><td>
+<p style="border-bottom: 1px solid #ccc; padding-bottom: 8px; font-size: 1.2em"><a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/logosmall.gif" alt="JavaScript Weekly" width="229" height="39" style="margin-bottom: 10px; border: 0" /></a><br /><small>Issue #5 - December 10, 2010</small></p>
+
+<p>It's issue 5 of <em>JavaScript Weekly</em>! There's been so much great stuff in the JavaScript world this week I haven't had to bribe or coerce anyone into giving up their secrets ;-) Let's get straight into it:</p>
+
+<p><big><strong>This week's top news</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blog.chromium.org/2010/12/new-crankshaft-for-v8.html">Google's V8 Gets A Big Performance Boost with Crankshaft</a></big></strong><br />V8, Google's JavaScript VM and implementation (and backend for node.js), has gotten yet another significant performance boost with the introduction of Crankshaft, a new 'compilation infrastructure' that aggressively optimizes code V8 runs. It's available in the up to date developer builds of V8 and Chrome and should roll out widely in time.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://jsbootcamp.com/">Announcing JS Boot Camp: A 2 Day JavaScript Course</a></big></strong><br />Prolific JavaScripter Chris Williams has opened the doors on the JS Boot Camp, a 2 day 'from interested to proficient' JavaScript course taking place February 10-11, 2011 in Reston, Virginia. There are only 30 seats and the Twitter buzz suggests it'll sell out sooner than later..</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://jupiterjs.com/news/javascriptmvc-3-0-good-to-go">JavaScriptMVC 3.0 Released: More MVC for your jQuery</a></big></strong><br />JavaScriptMVC is an open source, jQuery-powered 'rich internet application' framework that brings the power of MVC (Model View Controller) right into JavaScript. It's reached a significant milestone with the 3.0 release having taken 18 months of hard work.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/languages/JavaScript">JavaScript Tops Ruby To Become #1 Language on GitHub</a></big></strong><br />GitHub has become the 'go to' place for hosting open-source projects and Ruby has dominated the site since it launched. This week, JavaScript tipped the scales and became language #1! Want to know what the most watched and forked JavaScript project is overall? Click the link..</p>
+
+<p><big><strong>This week's top articles</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.0xdeadbeef.com/weblog/2010/12/disabling-websockets-for-firefox-4/">WebSockets Support Disabled in Firefox 4</a></big></strong><br />Due to a protocol-level security issue, the Firefox team have decided to disable support for WebSockets in Firefox 4. It can be turned back on with a hidden preference setting but they're waiting for improvements to the protocol before making it available by default.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blog.pusherapp.com/2010/12/9/it-s-not-websockets-it-s-your-broken-proxy">It's Not WebSockets - It's Your Broken Proxy</a></big></strong><br />Martyn from Pusher, a realtime WebSockets message broker service, gives a lowdown on what the Firefox 4 WebSockets announcement means and why it's not as big a deal as it seems. He notes that Pusher will still work with Firefox 4 in the interim through a Flash-based socket instead. (I've used Pusher - it's a great service to roll out realtime push stuff.)</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blogs.sitepoint.com/2010/12/10/javascript-threading-html5-web-workers/">JavaScript Threading With HTML5 Web Workers</a></big></strong><br />Craig Buckler demonstrates how to use the Web Workers API to run scripts in different threads, separate from the current page, and how to communicate with them through the Web Workers event interface. An easy to understand overview of an up and coming technology.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://igstan.ro/posts/2010-12-01-deriving-the-y-combinator-in-7-easy-steps.html">Deriving the Y Combinator in 7 Easy Steps</a></big></strong><br />Without getting all computer science on you, the 'Y combinator' is a higher order function that makes it possible to create anonymous recursive functions in some languages (including JavaScript). Ionut G Stan elegantly demonstrates how to create a Y combinator in JavaScript starting from basic principles. Even if you don't understand it, this is a beautiful walkthrough.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.elfsternberg.com/2010/12/08/backbonejs-introducing-backbone-store/">Building An Online Store in a Single Page with Backbone.js</a></big></strong><br />Elf Sternberg presents his single page, JavaScript-powered 'online store' written using the Backbone.js MVC (sort of) library. It's an interesting experiment and Elf explains how it was put together with code examples.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://pivotallabs.com/users/jdean/blog/articles/1497-tips-for-writing-testable-maintainable-page-specific-javascript">Tips for Writing Testable, Maintainable Page-Specific JavaScript</a></big></strong><br />Jeff Dean of Pivotal Labs shares a few code-driven tips on JavaScript best practices relating to structuring your code so it's easier to test and maintain.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blog.davidpadbury.com/2010/12/09/making-macros-in-coffeescript/">Making Macros in CoffeeScript (sort of..)</a></big></strong><br />David Padbury doesn't quite get as far as building a full macro system in CoffeeScript in this article, but he demonstrates how simple it is to mess with CoffeeScript before it's compiled.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blog.thejit.org/2010/02/12/voronoi-tessellation/">Voronoi Tessellation in JavaScript</a></big></strong><br />Nicolas Belmonte kicks off a series about Voronoi diagrams and how to produce them in JavaScript. There are screenshots if you're not familiar with the concept, but effectively they're diagrams split into parts based on the distance of each area to their nearest point in a smaller discrete set.</p>
+
+<p><big><strong>Interesting new libraries and code</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/mnot/htracr">htracr: HTTP packet sniffer and visualization tool</a></big></strong><br />htracr is a node.js application by Mark Nottingham that aims to give you 'unparalleled insight into what's happening on the wire between your browser and the Web.' Good looking stuff.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blog.0x82.com/2010/11/22/map-crowd-reduce">Map Crowd Reduce: Crowdsourced Map/Reduce</a></big></strong><br />Map Crowd Reduce is a system that allows you to 'massively distribute' CPU intensive tasks using HTML 5 and JavaScript. Essentially, it's a crowdsourced map/reduce system. In a test taking 15 minutes on one machine, Map Crowd Reduce took 20 seconds when ~50 people were viewing the same page.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/matthewd/capuchin">Capuchin: A JavaScript implementation for the Rubinius VM</a></big></strong><br />Rubinius is a Ruby implementation and VM (compare with Java and the JVM). Matthew Draper is working on a project to run JavaScript on the Rubinius VM. Early days but it could offer opportunities for JS/Ruby crossovers one day.</p>
+
+<p><big><strong>This week's bonus links</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://letteringjs.com/">Lettering.js: Radical Web Typography in a jQuery Plugin</a></big></strong><br />It's not news but it's beautiful. Lettering.js is a jQuery plugin that offers you 'radical Web typography' in the sense of having 'down to the letter' control over your type. The demos are compelling.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://codelesson.com/ruby">My 4 Week Introductory Ruby Course - Starts January 2011</a></big></strong><br />A little self promotion! The doors have finally opened on a (paid) online introductory Ruby programming course I'm running that starts January 10, 2011 and runs for 4 weeks. It's for people who want to leap from the bare essentials up to being a confident, intermediate Ruby developer with the knowledge to progress further.</p>
+
+
+
+
+</td></tr></table>
+
+</body>
+</html>

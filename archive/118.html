@@ -1,0 +1,237 @@
+<html><head>
+  <title>JavaScript Weekly Issue 118 - February 22, 2013</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<style>
+html {  }
+body { font-family: "Helvetica Neue", helvetica, arial, sans-serif; font-size: 14px; margin: 0; padding: 0; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+     body {
+          padding: 10px !important;
+     }
+	#maintable {
+		width: auto !important;
+	}
+}
+.notinarchive { display: none; }
+</style>
+
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+  <h1 class="title" style="margin-top: 0em; padding-top: 0.5em; position: relative; color: #0aa; font-size: 2.9em">JavaScript <img src="http://javascriptweekly.com/cog.png" style="position: absolute; top: 50%; margin-top: -8px" /><div style="width: 38px; height: 1px; display: inline-block"></div>Weekly</h1>
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+  	      <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+  				<input type="hidden" name="list_id" value="596bcf37c5" />
+  			</form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+</div>
+
+<table style="font-family: helvetica, arial, sans-serif;" width="100%" cellpadding="8" cellspacing="0"><tr>
+	<td bgcolor="#ffffff">
+	  
+<table border="0" cellpadding="0" cellspacing="0" width="640" id="maintable" align="center" style="font-family: helvetica, arial, sans-serif; margin-top: 3px">
+	<tr bgcolor="#00aaac"><td>
+<a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/jslogo2.gif" alt="JavaScript Weekly" width="366" height="78" style="margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor="#ffffff"><td>
+	<p style="color: #0aa; font-weight: bold; font-size: 15px; margin-bottom: 0; padding: 0 0px; margin-top: 3px">Issue #118 - February 22, 2013</p>
+	
+	
+
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Featured</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" featured"><strong><a href="http://asmjs.org/" title="asmjs.org">asm.js: A Highly Optimizable, Low-Level Subset of JavaScript</a></strong><br /><span style="font-size: 0.9em">
+The idea is that JavaScript engines with asm.js support will be able to compile code using the asm.js subset of JavaScript into faster underlying code. asm.js was inspired by <a href="http://emscripten.org/">Emscripten</a> which uses a standard C/C++ compiler to generate LLVM bitcode that is then compiled to JavaScript. The <a href="http://asmjs.org/faq.html">asm.js FAQ</a> explains more of the motivation behind the project, and other good articles include <a href="http://lanyrd.com/2013/mlocjs/sccwrb/">Big Web App? Compile It!</a>” (video and slides by Alon Zakai, creator of Emscripten and co-creator of asm.js), “<a href="http://www.2ality.com/2013/02/asm-js.html">asm.js: closing the gap between JavaScript and native</a>” and Badass JavaScript's “<a href="http://badassjs.com/post/43420901994/asm-js-a-low-level-highly-optimizable-subset-of">asm.js: A Low Level, Highly Optimizable Subset of JavaScript for Compilers</a>.”
+</span></p>
+  
+
+
+
+
+
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://jquerymobile.com/blog/2013/02/20/jquery-mobile-1-3-0-released/" title="jquerymobile.com/blog/2013/02/20/jquery-mobile-1-3-0-released">jQuery Mobile 1.3.0 Released</a></strong><br /><span style="font-size: 0.9em">This release is focused on elevating responsive web design and brings lots of new widgets including panels, dual handle range sliders, and two different responsive table modes. Additionally, the Ajax nav system has been refactored and made easier to use.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  featured"><a href="http://badassjs.com/post/43158184752/qt-gui-toolkit-ported-to-javascript-via-emscripten" title="badassjs.com/post/43158184752/qt-gui-toolkit-ported-to-javascript-via-emscripten">Qt GUI Toolkit Ported to JavaScript via Emscripten</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">From our Sponsor</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><a href="http://frontendmasters.com/courses/javascript-the-good-parts/douglas-crockfords-function-challenges/"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/8970/thumb125_crockford.png" width="125" height="125" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://frontendmasters.com/courses/javascript-the-good-parts/douglas-crockfords-function-challenges/" title="frontendmasters.com/courses/javascript-the-good-parts/douglas-crockfords-function-challenges">Frontend Masters: New JavaScript Course by Douglas Crockford</a></strong><br /><span style="font-size: 0.9em">
+Douglas claims JavaScript has, “some of the best parts of any programming language ever created”. He explains what these “good parts” are and then expands the audience's knowledge with JavaScript challenges.<br><br><em>Take Crockford's mind-expanding JavaScript challenges in this new course from Frontend Masters!</em>
+</span></p>
+  
+
+
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Reading</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://markdaggett.com/blog/2013/02/15/functions-explained/" title="markdaggett.com/blog/2013/02/15/functions-explained">JavaScript Functions Explained</a></strong><br /><span style="font-size: 0.9em">
+Covers functions, blocks and scoping.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.netmagazine.com/tutorials/angularjs-collaboration-board-socketio" title="www.netmagazine.com/tutorials/angularjs-collaboration-board-socketio">Building an AngularJS Collaboration Board with Socket.io</a></strong><br /><span style="font-size: 0.9em">
+Lukas Ruebbelke demonstrates all the steps necessary to build a real-time collaboration board powered by AngularJS and Socket.io.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://freshbrewedcode.com/jonathancreamer/2013/02/19/two-ways-to-set-a-conditional-breakpoint-in-javascript/" title="freshbrewedcode.com/jonathancreamer/2013/02/19/two-ways-to-set-a-conditional-breakpoint-in-javascript">Two Ways to Set A Conditional Breakpoint in JavaScript</a></strong><br /><span style="font-size: 0.9em">
+Focused on debugging with Chrome and IE’s developer tools.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://kitcambridge.be/blog/say-hello-to-lo-dash/" title="kitcambridge.be/blog/say-hello-to-lo-dash">Say “Hello” to Lo-Dash</a></strong><br /><span style="font-size: 0.9em">
+Lo-Dash is a fork of the popular <a href="http://underscorejs.org/">Underscore.js</a> library (with language utility functions). It focuses on performance and a configurable build process.
+</span></p>
+  
+
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://blog.teamtreehouse.com/using-web-workers-to-speed-up-your-javascript-applications" title="blog.teamtreehouse.com/using-web-workers-to-speed-up-your-javascript-applications">Using Web Workers to Speed Up Your JavaScript Applications</a></strong><br /><span style="font-size: 0.9em">
+Web workers let you write multi-threaded code in JavaScript.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://msdn.microsoft.com/en-us/library/windows/apps/jj674095.aspx" title="msdn.microsoft.com/en-us/library/windows/apps/jj674095.aspx">Developing An End-to-End Windows Store App Using JavaScript: Hilo</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://qawemlilo.rflab.co.za/?p=458" title="qawemlilo.rflab.co.za/?p=458">Rolling Out Your Own Uptime Monitor with Node.JS</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Releases</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" releases"><strong><a href="http://emberjs.com/blog/2013/02/15/ember-1-0-rc/" title="emberjs.com/blog/2013/02/15/ember-1-0-rc">Ember 1.0 RC1</a></strong><br /><span style="font-size: 0.9em">
+JavaScript webapp framework.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" releases"><strong><a href="http://gruntjs.com/blog/2013-02-18-grunt-0.4.0-released#?" title="gruntjs.com/blog/2013-02-18-grunt-0.4.0-released#?">Grunt 0.4.0</a></strong><br /><span style="font-size: 0.9em">
+The JavaScript task runner.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" releases"><strong><a href="https://plus.google.com/u/0/101063139999404044459/posts/WYbqkuhYhQ2" title="plus.google.com/u/0/101063139999404044459/posts/WYbqkuhYhQ2">Yeoman 1.0 Beta</a></strong><br /><span style="font-size: 0.9em">
+Modern workflows for modern webapps. Now faster and more configurable.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  releases"><a href="http://blog.angularjs.org/2013/02/angularjs-105-flatulent-propulsion-and.html" title="blog.angularjs.org/2013/02/angularjs-105-flatulent-propulsion-and.html">AngularJS 1.0.5 and 1.1.3</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://www.meteor.com/blog/2013/02/21/meteor-057-major-scaling-update-new-ddp-version-ejson" title="www.meteor.com/blog/2013/02/21/meteor-057-major-scaling-update-new-ddp-version-ejson">Meteor 0.5.7</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Code and Libraries</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="https://github.com/twitter/typeahead.js/" title="github.com/twitter/typeahead.js">Typeahead.js: Fast and Full-Featured Autocomplete Library</a></strong><br /><span style="font-size: 0.9em">
+Twitter's engineers have built a library that helps with filling out a text field via a menu that shows choices derived from what has already been typed in. A <a href="http://engineering.twitter.com/2013/02/twitter-typeaheadjs-you-autocomplete-me.html">blog post</a> gives background information and a <a href="http://twitter.github.com/typeahead.js/examples/">page with examples</a> lets you see the library in action.
+</span></p>
+  
+
+
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://durandaljs.com/" title="durandaljs.com">Durandal: Single-Page App Framework</a></strong><br /><span style="font-size: 0.9em">
+Built on top of jQuery, Knockout and RequireJS. Other keywords: MV* architecture, async programming via promises, integrates with other libraries such as SammyJS and Bootstrap.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="https://github.com/codylindley/simple-frontend-boilerplate" title="github.com/codylindley/simple-frontend-boilerplate">Simple Frontend Boilerplate</a></strong><br /><span style="font-size: 0.9em">
+A starting point to develop websites or web applications without forcing a specific MV* framework or modular loader.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://emblemjs.com/" title="emblemjs.com">Emblem.js: Concise, Indented Alternative Handlebars Syntax</a></strong><br /><span style="font-size: 0.9em">
+A templating language that you can use instead of Handlebars to write templates for your views in Ember.js (and soon, in any other setting). Emblem.js uses indentation instead of braces to delimit things and compiles to Handlebars.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://mudcu.be/midi-js/" title="mudcu.be/midi-js">MIDI.js: Sequencing in JavaScript</a></strong><br /><span style="font-size: 0.9em">
+A MIDI sequencing library with support for visual effects. Includes a tool for converting SoundFont files to a browser-compatible format.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="https://github.com/jstayton/version.js" title="github.com/jstayton/version.js">version.js: Configure The Versions of Libraries You Load Via A Query Parameter</a></strong><br /><span style="font-size: 0.9em">
+Useful for testing, you can invoke the same test runner multiple times and each time tell it to use a different version of jQuery. For example, version 1.5.0: http://local.dev/test/runner.html?versionjs=1.5.0
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="https://github.com/detro/consoleplusplus" title="github.com/detro/consoleplusplus">Console++: Enhance Your Console with Colors and Logging Levels</a></strong><br /><span style="font-size: 0.9em">
+Works with PhantomJS and NodeJS out of the box.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  "><a href="http://www.dropzonejs.com/" title="www.dropzonejs.com">dropzone.js: Provides Drag and Drop File Uploads with Image Previews</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="https://github.com/esdiscuss/pipermail" title="github.com/esdiscuss/pipermail">Pipermail: Node.js Utilities for Reading Pipermail Archives</a></strong><br /><span style="font-size: 0.9em">
+One popular example of such archives is the <a href="https://mail.mozilla.org/listinfo/es-discuss">es-discuss mailing list</a>.
+</span></p>
+  
+
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="https://github.com/azer/memdiff" title="github.com/azer/memdiff">memdiff: A BDD-style Memory Leak Hunting Tool for Node</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="https://github.com/MatthewMueller/array" title="github.com/MatthewMueller/array">Array.js: Better Arrays for Browsers and Node.js</a></strong><br /><span style="font-size: 0.9em">
+Array.js is a custom implementations of arrays that are observable and have more methods for functional programming.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="https://github.com/azer/emacs.js" title="github.com/azer/emacs.js">emacs.js: A Ready-to-use Emacs Setup for JavaScript Developers</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="http://davidshimel.com/conways-game-of-life-in-processing-js/" title="davidshimel.com/conways-game-of-life-in-processing-js">Conway’s Game of Life in Processing.js</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Jobs</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://gs10.globalsuccessor.com/fe/tpl_GuardianNews01.asp?newms=jj&id=94392&aid=13972" title="gs10.globalsuccessor.com/fe/tpl_GuardianNews01.asp?newms=jj&id=94392&aid=13972">JavaScript Engineer at the Guardian (London)</a></strong><br /><span style="font-size: 0.9em">The Guardian is looking for a strong JavaScript developer to work on its content platform and new editorial tools. You'll be familiar with MV* JavaScript frameworks (Backbone, AngularJS, Knockout) and be confident using AMD patterns to organise your JS.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://bit.ly/ZaVQU9" title="bit.ly/ZaVQU9">Contract Client-Side Developer at Photobox (London)</a></strong><br /><span style="font-size: 0.9em">A 2 month contract at the UK's leading online digital photo printing service for a client-side developer with responsive design experience. </span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.flite.com/careers/open-positions/" title="www.flite.com/careers/open-positions">Front-End JavaScript Engineer (jQuery/Backbone/Underscore) at Flite</a></strong><br /><span style="font-size: 0.9em">We are looking for a top-notch JavaScript Engineer. If you're wanted to build a web platform that is backed by top VCs and used by top-tier clients like SalesForce, LinkedIn, and P&amp;G, while working with some cutting edge technology including Node.js, check us out.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://cooperpress.com/jobs" title="cooperpress.com/jobs">Post a job in a future issue of JavaScript Weekly</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Last but not least..</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.kickstarter.com/projects/getify/the-jsperf-guide-book" title="www.kickstarter.com/projects/getify/the-jsperf-guide-book">Kyle Simpson's Kickstarter for a jsPerf Book</a></strong><br /><span style="font-size: 0.9em">Kyle Simpson has started a Kickstarter campaign to raise money for producing a short but helpful guide to effectively testing and benchmarking JavaScript performance using jsPerf.com and Benchmark.js.</span></p>
+  
+
+
+<div style="font-family: verdana; font-size: 12px; text-align: center">Editor: <a href="http://2ality.com/">Dr. Axel Rauschmayer</a></div>
+
+</td></tr>
+
+</table>
+
+</td></tr></table>
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+          <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+          <input type="hidden" name="list_id" value="596bcf37c5" />
+        </form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+
+        <p>Want to advertise? <a href="https://cooperpress.com/mediakit2012.pdf">See our media kit for details.</a>
+  <br />Want to post a job? <a href="https://cooperpress.com/jobs">Use our self serve system</a> or reply to this e-mail.
+</div>
+
+</body>
+</html>

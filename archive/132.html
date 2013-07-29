@@ -1,0 +1,209 @@
+<html><head>
+  <title>JavaScript Weekly Issue 132 - May 31, 2013</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<style>
+html {  }
+body { font-family: "Helvetica Neue", helvetica, arial, sans-serif; font-size: 14px; margin: 0; padding: 0; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+     body {
+          padding: 10px !important;
+     }
+	#maintable {
+		width: auto !important;
+	}
+}
+.notinarchive { display: none; }
+</style>
+
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+  <h1 class="title" style="margin-top: 0em; padding-top: 0.5em; position: relative; color: #0aa; font-size: 2.9em">JavaScript <img src="http://javascriptweekly.com/cog.png" style="position: absolute; top: 50%; margin-top: -8px" /><div style="width: 38px; height: 1px; display: inline-block"></div>Weekly</h1>
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+  	      <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+  				<input type="hidden" name="list_id" value="596bcf37c5" />
+  			</form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+</div>
+
+<table style="font-family: helvetica, arial, sans-serif;" width="100%" cellpadding="8" cellspacing="0"><tr>
+	<td bgcolor="#ffffff">
+	  
+<table border="0" cellpadding="0" cellspacing="0" width="640" id="maintable" align="center" style="font-family: helvetica, arial, sans-serif; margin-top: 3px">
+	<tr bgcolor="#00aaac"><td>
+<a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/jslogo2.gif" alt="JavaScript Weekly" width="366" height="78" style="margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor="#ffffff"><td>
+	<p style="color: #0aa; font-weight: bold; font-size: 15px; margin-bottom: 0; padding: 0 0px; margin-top: 3px">Issue #132 - May 31, 2013</p>
+	
+	
+
+
+<p style="margin: 1.2em 0px 1.35em 0px; line-height: 1.5em; font-size: 14px">Welcome to issue 132 of <em>JavaScript Weekly</em>. A little later and shorter this week as I'm still in SF tying up the loose ends from Fluent. Hopefully everyone who was at <a href="http://2013.jsconf.us/">Fluent</a> (and still at <a href="http://2013.jsconf.us/">JSConf</a>) has had/is having a great time :-)</p>
+
+
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Featured</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/" title="blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released">jQuery 1.10.0 and 2.0.1 Released</a></strong><br /><span style="font-size: 0.9em">
+Both branches of jQuery get an update. jQuery 1.10.0 follows on from jQuery 1.9 so maintains support for older browsers (i.e. IE 6, 7 and 8). The overall goal with these releases has been to synchronize features and behaviors across 1.x and 2.x.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching"><a href="http://www.youtube.com/watch?v=qrf9ONmtXbM"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/11563/thumb125_fluent1.png" width="80" height="80" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://www.youtube.com/watch?v=qrf9ONmtXbM" title="www.youtube.com/watch?v=qrf9ONmtXbM">Brendan Eich: 'JavaScript at 18: Legal to Gamble'</a></strong><br /><span style="font-size: 0.9em">
+Brendan Eich opened O'Reilly Fluent this week with a keynote looking at the future for JavaScript, ASM.js, and the cutting edge of Mozilla and Epic's Unreal Engine demo (yep, Brendan gets busy with a rocket launcher mid-talk).
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">From our Sponsor</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><a href="http://try.newrelic.com/nodejs"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/11123/thumb_newrelic.png" width="133" height="100" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://try.newrelic.com/nodejs" title="try.newrelic.com/nodejs">New Relic is hard at work on their Node.js Agent</a></strong><br /><span style="font-size: 0.9em">Are you a proud member of the Node.js community? Do you wish you had a way to monitor and improve the performance of your app? Well, you're in luck. We have extremely talented monkeys in the back room tinkering away at building the only Node.js APM solution. It's almost ready so make sure you let us know who you are so you can be first in line.
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Reading</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://alistapart.com/article/the-design-of-code-organizing-javascript" title="alistapart.com/article/the-design-of-code-organizing-javascript">The Design of Code: Organizing JavaScript</a></strong><br /><span style="font-size: 0.9em">
+Anthony Colangelo looks at the module pattern and jQuery plugins for A List Apart.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://www.hanselman.com/blog/JavaScriptIsWebAssemblyLanguageAndThatsOK.aspx" title="www.hanselman.com/blog/JavaScriptIsWebAssemblyLanguageAndThatsOK.aspx">JavaScript is Web Assembly Language and That's OK</a></strong><br /><span style="font-size: 0.9em">
+Microsoft's Scott Hanselman reflects on, and reasserts, his often quoted "JavaScript is the assembly of the Web" statement.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://tech.pro/tutorial/1336/phonegap-and-angularjs-the-start" title="tech.pro/tutorial/1336/phonegap-and-angularjs-the-start">PhoneGap and AngularJS: First Steps</a></strong><br /><span style="font-size: 0.9em">
+The start of a series of tutorials on using PhoneGap and AngularJS together within an iOS app.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  "><a href="http://www.jedi.be/blog/2013/05/14/Compiling%20-%20packaging%20a%20nodejs%20project%20as%20a%20single%20binary/" title="www.jedi.be/blog/2013/05/14/Compiling%20-%20packaging%20a%20nodejs%20project%20as%20a%20single%20binary">Compiling A Node.JS Project To A Single Binary</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://blog.wg.oftn.org/post/51125082905/core-estimator" title="blog.wg.oftn.org/post/51125082905/core-estimator">CPU Core Estimation with JavaScript</a></strong><br /><span style="font-size: 0.9em">A look at a clever technique to estimate how many cores a user's CPU has from JavaScript.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://tomasz.janczuk.org/2013/05/multi-line-strings-in-javascript-and.html?m=1" title="tomasz.janczuk.org/2013/05/multi-line-strings-in-javascript-and.html?m=1">Multi-line Strings in JavaScript and Node.js</a></strong><br /><span style="font-size: 0.9em">
+A cute trick but proceed with caution.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://ruoyusun.com/2013/05/25/things-i-wish-i-were-told-about-angular-js.html" title="ruoyusun.com/2013/05/25/things-i-wish-i-were-told-about-angular-js.html">Things I Wish I Were Told About Angular.js</a></strong><br /><span style="font-size: 0.9em">
+Ruoyu Sun likes using Angular but after having finished a project, there are things they wished they'd known earlier.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  "><a href="http://0fps.wordpress.com/2013/05/22/implementing-multidimensional-arrays-in-javascript/" title="0fps.wordpress.com/2013/05/22/implementing-multidimensional-arrays-in-javascript">Implementing Multidimensional Arrays in JavaScript</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  "><a href="https://hacks.mozilla.org/2013/05/optimizing-your-javascript-game-for-firefox-os/" title="hacks.mozilla.org/2013/05/optimizing-your-javascript-game-for-firefox-os">Optimizing Your JavaScript Game for Firefox OS</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  "><a href="http://h30499.www3.hp.com/t5/HP-Software-Developers-Blog/JavaScript-Inheritance-Revisited/ba-p/6082285#.UagdJ2SKJc0" title="h30499.www3.hp.com/t5/HP-Software-Developers-Blog/JavaScript-Inheritance-Revisited/ba-p/6082285#.UagdJ2SKJc0">JavaScript Inheritance Revisited</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  "><a href="http://codeofrob.com/entries/a-comparison-of-various-js-frameworks-using-cold-hard-data.html" title="codeofrob.com/entries/a-comparison-of-various-js-frameworks-using-cold-hard-data.html">A Comparison of Various JS Frameworks Using Cold Hard Data</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Watching</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching"><a href="http://www.youtube.com/watch?v=bqfoYaKCYUI"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/11572/thumb_fluent2.png" width="133" height="100" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://www.youtube.com/watch?v=bqfoYaKCYUI" title="www.youtube.com/watch?v=bqfoYaKCYUI">Paul Irish on JavaScript Authoring Tooling</a></strong><br /><span style="font-size: 0.9em">
+Paul reflects on his Fluent 2012 keynote 'JavaScript Development Workflow of 2013' and what's happened in between. He also digs deep into the latest hotness within the Chrome DevTools.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching"><strong><a href="http://www.youtube.com/watch?v=4udR30JYenA" title="www.youtube.com/watch?v=4udR30JYenA">Taking JavaScript Seriously with Backbone.js</a></strong><br /><span style="font-size: 0.9em">
+The creator of Backbone.js, Jeremy Ashkenas, discusses how the framework is aimed at the common patterns that JavaScript-heavy web applications rely on, how the pieces work together, and some of the design decisions that give Backbone.js its flavour. A 50 minute presentation from Web Directions.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching"><strong><a href="http://www.youtube.com/watch?v=m3svKOdZijA" title="www.youtube.com/watch?v=m3svKOdZijA">Hey Underscore, You're Doing It Wrong</a></strong><br /><span style="font-size: 0.9em">
+Brian Lonsdorf offers some solutions for using Underscore productively and looks at some of the functional concepts involved.
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Code and Libraries</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://easelinc.github.io/tourist/" title="easelinc.github.io/tourist">Tourist.js: Simple, Flexible Guided Tours Through Your App</a></strong><br /><span style="font-size: 0.9em">
+The latest in a long line of libraries dedicated to making it possible to roll out smooth 'guided tours'/walkthroughs of a Web app. This one has a nice UI and relies upon Backbone and jQuery.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://cytoscape.github.io/cytoscape.js/" title="cytoscape.github.io/cytoscape.js">Cytoscape.js: JavaScript Graph Library</a></strong><br /><span style="font-size: 0.9em">
+Can be used for graph analysis, visualisation, and graphs can be easily displayed on your site/within your app. Also supports user interaction.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="https://github.com/sidorares/vnc-over-gif" title="github.com/sidorares/vnc-over-gif">VNC Over GIF: Screen Updates as Animated GIF over HTTP</a></strong><br /><span style="font-size: 0.9em">
+Powered by Node, node-gif, and node-rfb2. Claims to work on Netscape 2 and above ;-)
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="https://github.com/dobtco/jquery-resizable-columns" title="github.com/dobtco/jquery-resizable-columns">jquery-resizable-columns: Resizable Table Columns jQuery Plugin</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://montagejs.org/" title="montagejs.org">Montage: An HTML5 Framework for Building Modern Web Apps</a></strong><br /><span style="font-size: 0.9em">
+Includes components, HTML templates, 2 way data binding, serialization, and event management.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  "><a href="http://zespia.tw/hexo/" title="zespia.tw/hexo">Hexo: A Node.js Blog Framework using Static Files</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code solo"><a href="https://github.com/openpgpjs/openpgpjs" title="github.com/openpgpjs/openpgpjs">openpgpjs: An OpenPGP implementation for JavaScript</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="https://github.com/jsoverson/plato" title="github.com/jsoverson/plato">Plato: JS Source Code Visualization, Static Analysis, and Complexity Tool</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Jobs</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://dev.billysbilling.com/careers/front-end-javascript-developer-emberjs" title="dev.billysbilling.com/careers/front-end-javascript-developer-emberjs">No more IE9 and down! Front-end JavaScript developer for Ember.js</a></strong><br /><span style="font-size: 0.9em">JavaScript and San Francisco. What's not to love? Come help us build the most awesome Ember.js web app the world has ever seen. We like open source. We have a lot of fun (beers) on the team. Work on an exciting modern app and show off your skills!</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.polleverywhere.com/jobs#op-14693-frontend-coffeescripter" title="www.polleverywhere.com/jobs#op-14693-frontend-coffeescripter">Frontend CoffeeScripter</a></strong><br /><span style="font-size: 0.9em">We're Poll Everywhere, the worlds largest real-time polling platform. We're looking for a CoffeeScripter with a strong sense of user interaction design who can help build new features in our mobile app, HTML5 visualizations, and pretty much everything else. </span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><a href="http://www.thinkful.com/?utm_source=cooper%2Bpress&utm_medium=job%2Bposting&utm_term=job%2Bposting&utm_content=junior%2Bsoftware%2Bengineer&utm_campaign=job%2Bposting"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/11078/thumb_thinkful.png" width="100" height="75" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://www.thinkful.com/?utm_source=cooper%2Bpress&utm_medium=job%2Bposting&utm_term=job%2Bposting&utm_content=junior%2Bsoftware%2Bengineer&utm_campaign=job%2Bposting" title="www.thinkful.com/?utm_source=cooper%2Bpress&utm_medium=job%2Bposting&utm_term=job%2Bposting&utm_content=junior%2Bsoftware%2Bengineer&utm_campaign=job%2Bposting">Junior Software Engineer at Thinkful</a></strong><br /><span style="font-size: 0.9em">
+We’re building the tools to deliver curricula, expertise, and live help so anyone can advance their career. As an engineer at Thinkful you’ll be working directly with both the founders to architect, build and grow our technology and our team. You'll learn new skills and apply them to help others do the same. Talent and curiosity matter more than raw skill. Experience is valued, but not as much as potential.
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Last but not least..</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://www.json-generator.com/" title="www.json-generator.com">JSON Generator: A Tool for Generating Random JSON Data</a></strong><br /><span style="font-size: 0.9em">
+A clever online tool that can generate 'random' JSON data based upon simple, editable JavaScript-powered templates.
+</span></p>
+  
+
+
+<div style="font-family: verdana; font-size: 12px; text-align: center">Editor: <a href="http://2ality.com/">Dr. Axel Rauschmayer</a></div>
+
+</td></tr>
+
+</table>
+
+</td></tr></table>
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+          <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+          <input type="hidden" name="list_id" value="596bcf37c5" />
+        </form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+
+        <p>Want to advertise? <a href="https://cooperpress.com/mediakit2013.pdf">See our media kit for details.</a>
+  <br />Want to post a job? <a href="https://cooperpress.com/jobs">Use our self serve system</a> or reply to this e-mail.
+</div>
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+<html><head>
+  <title>JavaScript Weekly Issue 115 - February 1, 2013</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<style>
+html {  }
+body { font-family: "Helvetica Neue", helvetica, arial, sans-serif; font-size: 14px; margin: 0; padding: 0; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+     body {
+          padding: 10px !important;
+     }
+	#maintable {
+		width: auto !important;
+	}
+}
+.notinarchive { display: none; }
+</style>
+
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+  <h1 class="title" style="margin-top: 0em; padding-top: 0.5em; position: relative; color: #0aa; font-size: 2.9em">JavaScript <img src="http://javascriptweekly.com/cog.png" style="position: absolute; top: 50%; margin-top: -8px" /><div style="width: 38px; height: 1px; display: inline-block"></div>Weekly</h1>
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+  	      <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+  				<input type="hidden" name="list_id" value="596bcf37c5" />
+  			</form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+</div>
+
+<table style="font-family: helvetica, arial, sans-serif;" width="100%" cellpadding="8" cellspacing="0"><tr>
+	<td bgcolor="#ffffff">
+	  
+<table border="0" cellpadding="0" cellspacing="0" width="640" id="maintable" align="center" style="font-family: helvetica, arial, sans-serif; margin-top: 3px">
+	<tr bgcolor="#00aaac"><td>
+<a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/jslogo2.gif" alt="JavaScript Weekly" width="366" height="78" style="margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor="#ffffff"><td>
+	<p style="color: #0aa; font-weight: bold; font-size: 15px; margin-bottom: 0; padding: 0 0px; margin-top: 3px">Issue #115 - February 1, 2013</p>
+	
+	
+
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Featured</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://twitter.github.com/flight/" title="twitter.github.com/flight">Flight: A Lightweight, Component-Based JavaScript Framework from Twitter</a></strong><br /><span style="font-size: 0.9em">
+Yesterday, Twitter Engineering <a href="http://engineering.twitter.com/2013/01/introducing-flight-web-application.html">introduced</a> Flight. Flight is a lightweight, component-based JavaScript framework that maps behavior to DOM nodes. Twitter uses it for their web applications. Among others, it is based on: es5-shim, jQuery, AMD.
+</span></p>
+  
+
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="https://tutsplus.com/course/30-days-to-learn-jquery/" title="tutsplus.com/course/30-days-to-learn-jquery">30 Days to Learn jQuery: A Video Course</a></strong><br /><span style="font-size: 0.9em">
+A course from Tuts+ with one bite-sized video for each day. This is pretty remarkable for free.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://buildingfirefoxos.com/" title="buildingfirefoxos.com">Building Blocks: Reusable UI Components for Firefox OS</a></strong><br /><span style="font-size: 0.9em">
+Mozilla's Firefox OS is coming along nicely. The UI components are complemented by <a href="https://hacks.mozilla.org/2013/01/introducing-the-firefox-os-boilerplate-app/">an app</a> that generates boilerplate and <a href="https://hacks.mozilla.org/2013/01/remote-debugging-firefox-os-with-weinre/">remote debugging</a>.
+</span></p>
+  
+
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">From our Sponsor</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><a href="http://play.wakanda.org?utm_source=javascriptweekly&utm_medium=playwakanda"><img src="http://s3.cooperpress.com.s3.amazonaws.com/wakanda.png" width="125" height="125" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://play.wakanda.org?utm_source=javascriptweekly&utm_medium=playwakanda" title="play.wakanda.org?utm_source=javascriptweekly&utm_medium=playwakanda">Play with 1,000,000 database records from your browser</a></strong><br /><span style="font-size: 0.9em">Manipulate data with pure server-side JavaScript code – no SQL, no ORM – on a live beta application. See for yourself how fast and easy it is to use Wakanda: The open source, data-driven platform for Web and mobile apps.</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Reading</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://nerds.airbnb.com/weve-launched-our-first-nodejs-app-to-product" title="nerds.airbnb.com/weve-launched-our-first-nodejs-app-to-product">Our First Node.js App: Backbone on the Client and Server</a></strong><br /><span style="font-size: 0.9em">
+Airbnb engineering explains how they used Node.js to share more code between client and server. That code runs “on both sides of the wire, serving up real HTML on first pageload, but then kicking off a client-side JavaScript app.”
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.elijahmanor.com/2013/01/yo-dawg-i-herd-you-like-loops-so-jquery.html" title="www.elijahmanor.com/2013/01/yo-dawg-i-herd-you-like-loops-so-jquery.html">Do You Know When You Are Looping in jQuery?</a></strong><br /><span style="font-size: 0.9em">
+Elijah Manor explains the difference between explicit and implicit loops in jQuery. The difference has performance implications.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh974582.aspx" title="msdn.microsoft.com/en-us/library/windows/apps/hh974582.aspx">Creating an RSS/Blog Reader for Windows 8 using JavaScript</a></strong><br /><span style="font-size: 0.9em">The latest in a multi-part series on building a complete RSS reader for distribution in the Windows Store. Microsoft has placed JavaScript at the heart of Windows 8 so it's interesting to see how existing JavaScript skills can be used to gain an advantage with app development there.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="http://ocpsoft.org/opensource/javascript-is-the-new-perl/" title="ocpsoft.org/opensource/javascript-is-the-new-perl">JavaScript is the New Perl</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://blog.parse.com/2013/01/29/whats-so-great-about-javascript-promises/" title="blog.parse.com/2013/01/29/whats-so-great-about-javascript-promises">What’s So Great About JavaScript Promises?</a></strong><br /><span style="font-size: 0.9em">
+This article explains the appeal of <i>promises</i>, a technique for asynchronous programming.
+</span></p>
+  
+
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="http://www.elijahmanor.com/2013/01/beginner-html5-javascript-jquery.html" title="www.elijahmanor.com/2013/01/beginner-html5-javascript-jquery.html">Beginner HTML5, JavaScript, jQuery, Backbone, and CSS3 Resources</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://codeflow.org/entries/2013/jan/30/keyboard-events-in-javascript-are-broken/" title="codeflow.org/entries/2013/jan/30/keyboard-events-in-javascript-are-broken">Keyboard Events in JavaScript Are Broken</a></strong><br /><span style="font-size: 0.9em">
+Current keyboard events can’t be used if you are differently-abled; if you try to make an accessible rich internet application; or if you just have a different keyboard layout. This article explains the problem and a possible solution.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://jcreamerlive.com/2013/01/29/getting-started-with-anvil-js/" title="jcreamerlive.com/2013/01/29/getting-started-with-anvil-js">Getting Started with Anvil.js</a></strong><br /><span style="font-size: 0.9em">
+Anvil.js is a “Convention Over Configuration” (CoC) build system developed by Alex Robson and sponsored by appendTo. Anvil’s philosophy is to be a build system that stays out of your way.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://freshbrewedcode.com/jimcowart/2013/01/29/what-you-might-not-know-about-json-stringify/" title="freshbrewedcode.com/jimcowart/2013/01/29/what-you-might-not-know-about-json-stringify">  What You Might Not Know About JSON.stringify()</a></strong><br /><span style="font-size: 0.9em">
+JSON.stringify() converts a JavaScript object to a string in JSON format. This blog post explains how it works.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://net.tutsplus.com/tutorials/javascript-ajax/an-in-depth-review-of-jquerys-widget-factory/" title="net.tutsplus.com/tutorials/javascript-ajax/an-in-depth-review-of-jquerys-widget-factory">Making Use of jQuery UI’s Widget Factory</a></strong><br /><span style="font-size: 0.9em">
+To aid in the process of building widgets, the jQuery UI team introduced the Widget Factory, which removes most of the boilerplate that is typically associated with managing a widget.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.nczonline.net/blog/2010/01/26/answering-baranovskiys-javascript-quiz/" title="www.nczonline.net/blog/2010/01/26/answering-baranovskiys-javascript-quiz">Answering Baranovskiy’s JavaScript Quiz</a></strong><br /><span style="font-size: 0.9em">
+Nicholas Zakas uses Dmitry Baranovskiy’s <a href="http://dmitry.baranovskiy.com/post/91403200">JavaScript quiz</a> as a jumping-off point for explaining some of the quirkier parts of the language.
+</span></p>
+  
+
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://jspro.com/raw-javascript/instant-validation/" title="jspro.com/raw-javascript/instant-validation">Instant Form Validation Using JavaScript</a></strong><br /><span style="font-size: 0.9em">
+HTML5 introduces a couple of new attributes for implementing browser-based form validation. For browsers that don’t yet implement these attributes, we can use their values as the basis of a polyfill. We can also use them to provide a more interesting enhancement – instant form validation.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="https://hacks.mozilla.org/2013/01/introducing-web-activities/" title="hacks.mozilla.org/2013/01/introducing-web-activities">Introducing Web Activities</a></strong><br /><span style="font-size: 0.9em">
+On mobile devices, you can register your app for handling certain types of actions, or specify in your app what kind of actions you need support for. Web Activities, one of the <a href="https://wiki.mozilla.org/WebAPI/">WebAPIs</a>, enable the same thing for the web. Read the comments to see how Mozilla’s Web Activities are related to Google’s Web Intents.
+</span></p>
+  
+
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://ariya.ofilabs.com/2013/01/es6-and-array-comprehension.html" title="ariya.ofilabs.com/2013/01/es6-and-array-comprehension.html">ECMAScript 6 and Array Comprehension</a></strong><br /><span style="font-size: 0.9em">
+Ariya Hidayat explains this ECMAScript 6 language feature.
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Watching</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.youtube.com/user/EmpireJS" title="www.youtube.com/user/EmpireJS">Teaching Javascript to Cats (and Humans)</a></strong><br /><span style="font-size: 0.9em">
+A talk by Max Ogden from the recent Empire.js event. Empire.js is releasing more videos of their talks over the coming weeks.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://peepcode.com/products/emberjs" title="peepcode.com/products/emberjs">PeepCode Releases Ember.js Screencast</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Code and Libraries</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://blog.nodejs.org/2013/01/24/node-v0-9-8-unstable/" title="blog.nodejs.org/2013/01/24/node-v0-9-8-unstable">Node.js 0.9.8 (Unstable)</a></strong><br /><span style="font-size: 0.9em">
+Can be considered a preview of 0.10.0
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://sindresorhus.com/bower-components/" title="sindresorhus.com/bower-components">A Public Directory of Bower Components</a></strong><br /><span style="font-size: 0.9em">
+Bower is a popular package manager for the web for which many JavaScript oriented packages are available. This site elegantly catalogs packages, enabling you to find interesting ones quickly.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="https://github.com/wyuenho/backgrid" title="github.com/wyuenho/backgrid">Backgrid.js: Data Grid Widget for Backbone</a></strong><br /><span style="font-size: 0.9em">
+Provides a JavaScript API and produces easily stylable, semantic HTML.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="http://jakiestfu.github.com/Behave.js/" title="jakiestfu.github.com/Behave.js">Behave.js: Lightweight Library for Adding IDE-Style Behaviors to Plain Text Areas</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="https://github.com/rezoner/CanvasQuery/" title="github.com/rezoner/CanvasQuery">Canvas Query: jQuery-like (Chained Methods) Wrapper for Drawing on Canvas</a></strong><br /><span style="font-size: 0.9em">
+A fan of jQuery-style chained methods? Imagine if drawing on a canvas were as simple as cq(640, 480).drawImage(image, 0, 0).fillStyle("#ff0000").fillRect(64, 64, 32, 32).appendTo("body"), etc. That's what Canvas Query provides.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://github.com/paulkinzett/toolbar" title="github.com/paulkinzett/toolbar">Toolbar.js: jQuery Plugin for Tooltip-Style Toolbars</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="https://github.com/goldfire/howler.js" title="github.com/goldfire/howler.js">Howler.js: Audio Library for the Modern Web</a></strong><br /><span style="font-size: 0.9em">
+Defaults to Web Audio API and falls back to HTML5 Audio.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://github.com/josscrowcroft/accounting.js" title="github.com/josscrowcroft/accounting.js">Accounting.js: Lightweight JavaScript Library for Number, Money and Currency Formatting</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="https://github.com/trygve-lie/yocto.js" title="github.com/trygve-lie/yocto.js">Yocto.js: Small In-Memory Object Database with an API Inspired by Tuple Spaces</a></strong><br /><span style="font-size: 0.9em">
+Think: queries for your arrays.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://blog.jquery.com/2013/01/24/qunit-1-11-release-a-look-back-and-forth/" title="blog.jquery.com/2013/01/24/qunit-1-11-release-a-look-back-and-forth">QUnit 1.11 Release: A Look Back (and Forth)</a></strong><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://blog.angularjs.org/2013/01/angularjs-104-bewildering-hair-and-112.html" title="blog.angularjs.org/2013/01/angularjs-104-bewildering-hair-and-112.html">AngularJS 1.0.4 and 1.1.2 Released</a></strong><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Jobs</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.amazon.com/gp/jobs/173568" title="www.amazon.com/gp/jobs/173568">Grow with the cloud at Amazon Web Services</a></strong><br /><span style="font-size: 0.9em">Want to influence thousands? Here's your chance: AWS is seeking Node.js / JavaScript engineers to build the suite of tools and SDKs thousands of developers will use to create their applications. Apply now and grow with the cloud at AWS.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://careers.ingramcontent.com/ATSPages/default.aspx?Mode=J&PostingID=433" title="careers.ingramcontent.com/ATSPages/default.aspx?Mode=J&PostingID=433">Front End Web Developer</a></strong><br /><span style="font-size: 0.9em">Front End Web Developer with VitalSource Technologies (VST)in Boston, MA. This role will be responsible for building &amp; maintaining interactive games &amp; other web products using HTML5/Javascript for the education industry. </span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.wapolabs.com/careers" title="www.wapolabs.com/careers">Software Engineer with WaPo Labs, part of the Washington Post Company (DC or SF)</a></strong><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://cooperpress.com/jobs" title="cooperpress.com/jobs">Post a job in a future issue of JavaScript Weekly</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Last but not least..</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><a href="http://fluentconf.com/fluent2013/"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/8475/thumb_fluent2013.png" width="133" height="100" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://fluentconf.com/fluent2013/" title="fluentconf.com/fluent2013">O'Reilly Fluent 2013: San Francisco, May 28-30</a></strong><br /><span style="font-size: 0.9em">Fluent is an O'Reilly conference dedicated to JavaScript, Node, HTML5 and browser technologies. The <a href="http://fluentconf.com/fluent2013/public/schedule/grid">program</a> is now mostly complete and includes <a href="http://fluentconf.com/fluent2013/public/schedule/speakers">folks</a> like Brendan Eich, Lea Verou, Heather Arthur, Ben &amp; Dion, and Ilya Grigorik (who's giving a workshop on Web performance). Be sure to say hi to us if you come.</span></p>
+  
+
+
+
+
+<div style="font-family: verdana; font-size: 12px; text-align: center">Editor: <a href="http://2ality.com/">Dr. Axel Rauschmayer</a></div>
+
+</td></tr>
+
+</table>
+
+</td></tr></table>
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+          <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+          <input type="hidden" name="list_id" value="596bcf37c5" />
+        </form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+
+        <p>Want to advertise? <a href="https://cooperpress.com/mediakit2012.pdf">See our media kit for details.</a>
+  <br />Want to post a job? <a href="https://cooperpress.com/jobs">Use our self serve system</a> or reply to this e-mail.
+</div>
+
+</body>
+</html>

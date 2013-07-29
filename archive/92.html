@@ -1,0 +1,210 @@
+<html><head>
+  <title>JavaScript Weekly Issue 92 - August 17, 2012</title>
+</head>
+<body>
+
+<style>
+html {  }
+body { font-family: "Helvetica Neue", helvetica, arial, sans-serif; font-size: 14px; margin: 0; padding: 0; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+     body {
+          padding: 10px !important;
+     }
+	#maintable {
+		width: auto !important;
+	}
+}
+.notinarchive { display: none; }
+</style>
+
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+  <h1 class="title" style="margin-top: 0em; padding-top: 0.5em; position: relative; color: #0aa; font-size: 2.9em">JavaScript <img src="http://javascriptweekly.com/cog.png" style="position: absolute; top: 50%; margin-top: -8px" /><div style="width: 38px; height: 1px; display: inline-block"></div>Weekly</h1>
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+  	      <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+  				<input type="hidden" name="list_id" value="596bcf37c5" />
+  			</form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+</div>
+
+<table style="font-family: helvetica, arial, sans-serif;" width="100%" cellpadding="8" cellspacing="0"><tr>
+	<td bgcolor="#ffffff">
+	  
+<table border="0" cellpadding="0" cellspacing="0" width="640" id="maintable" align="center" style="font-family: helvetica, arial, sans-serif; margin-top: 3px">
+	<tr bgcolor="#00aaac"><td>
+<a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/jslogo2.gif" alt="JavaScript Weekly" width="366" height="78" style="margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor="#ffffff"><td>
+	<p style="color: #0aa; font-weight: bold; font-size: 15px; margin-bottom: 0; padding: 0 0px; margin-top: 3px">Issue #92 - August 17, 2012</p>
+	
+	
+
+
+<p style="margin: 1.2em 0px 1.35em 0px; line-height: 1.5em; font-size: 14px">Welcome to issue 92 of <em>JavaScript Weekly</em>. Having the cliched 'day from hell' so far so I apologize for any shortcomings in today's issue. Back to 100% next week! ;-) - Peter.</p>
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Headlines</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" headlines"><strong><a href="http://dojotoolkit.org/blog/dojo-1-8-released" title="dojotoolkit.org/blog/dojo-1-8-released">Dojo Toolkit 1.8 Released</a></strong><br /><span style="font-size: 0.9em">
+A significant release for the popular JavaScript toolkit. Major documentation improvements, a redesigned Promises/A-compliant deferreds/promises implementation, a new framework for creating graphically rich gauges, a new calendaring widget, and tons more.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://wiki.ecmascript.org/doku.php?id=globalization:specification_drafts" title="wiki.ecmascript.org/doku.php?id=globalization:specification_drafts">ECMAScript Internationalization API Specification Updates</a></strong><br /><span style="font-size: 0.9em">
+Ecma TC39 is not only working on the next version of ECMAScript but also the ECMAScript Internationalization API, an attempt to add core internationalization functionality to the language. The latest version of the spec is now out. Norbert Lindenberg, editor of the spec, tells JSW that "the plan of record is that TC 39 will approve this specification at its meeting in September, and the Ecma General Assembly at its meeting in December."
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://norbertlindenberg.com/2012/06/ecmascript-internationalization-api/" title="norbertlindenberg.com/2012/06/ecmascript-internationalization-api">A Gentler Introduction to the ECMAScript Internationalization API</a><br /><span style="font-size: 0.9em"></span></p>
+  
+  
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Reading</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://coding.smashingmagazine.com/2012/08/17/javascript-events-responding-user/" title="coding.smashingmagazine.com/2012/08/17/javascript-events-responding-user">JavaScript Events And Responding To The User</a></strong><br /><span style="font-size: 0.9em">
+Over at Smashing Coding, Mozilla's Christian Heilmann starts from the basics of what events mean in JavaScript and the browser and why decoupling functionality from events is a powerful idea.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://blog.amasad.me/2012/07/17/on-vms-in-javascript/" title="blog.amasad.me/2012/07/17/on-vms-in-javascript">On VMs in JavaScript</a></strong><br /><span style="font-size: 0.9em">
+Codecademy's Amjad Masad looks at some of the challenges in implementing a language VM in JavaScript.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://blog.jquery.com/2012/08/16/jquery-1-8-box-sizing-width-csswidth-and-outerwidth/" title="blog.jquery.com/2012/08/16/jquery-1-8-box-sizing-width-csswidth-and-outerwidth">jQuery 1.8 Box-Sizing: width(), css('width'), and outerWidth()</a></strong><br /><span style="font-size: 0.9em">
+The jQuery core team explains some changes, quirks, and updates with regards to how jQuery 1.8 handles the getting and setting of box sizing.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://channel9.msdn.com/coding4fun/blog/Hello-Netflix-This-Windows-8-WinJS-and-HTML5-Can-we-talk" title="channel9.msdn.com/coding4fun/blog/Hello-Netflix-This-Windows-8-WinJS-and-HTML5-Can-we-talk">How to Build a Windows 8 Netflix App with WinJS and HTML5</a></strong><br /><span style="font-size: 0.9em">
+A step by step guide to creating a Netflix Movie Explorer Metro app for Windows 8 using WinJS, HTML5, and Visual Studio 12. It seems Windows 8 will prove an interesting platform for HTML5 developers.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.adobe.com/devnet/html5/articles/bracket-code-architecture.html" title="www.adobe.com/devnet/html5/articles/bracket-code-architecture.html">An Overview of Brackets' Code Architecture</a></strong><br /><span style="font-size: 0.9em">
+An in-depth look at how the open source code editor Brackets (by Adobe) is architected using web standards technologies like HTML, CSS and JavaScript as well as frameworks like RequireJS.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://theadmin.org/articles/learning-knockout-javascript/" title="theadmin.org/articles/learning-knockout-javascript">Learning Knockout.js</a></strong><br /><span style="font-size: 0.9em">
+Eric Davis shares some of the impressions (and code!) he picked up while trying to learn to use Knockout.js, the MVVM JavaScript library.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://goodfil.ms/blog/posts/2012/08/13/angularjs-and-the-goodfilms-mobile-site-part-1/" title="goodfil.ms/blog/posts/2012/08/13/angularjs-and-the-goodfilms-mobile-site-part-1">AngularJS and The Goodfilms Mobile Site</a></strong><br /><span style="font-size: 0.9em">
+A rather detailed post (and only the first in a series!) about building a mobile site using Google's AngularJS framework, along with code samples and explanations. Worth reading if you want to get a feel for AngularJS in the setting of a non-trivial app.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://net.tutsplus.com/articles/interviews/an-interview-with-dojo-toolkit-creator-dylan-schiemann/" title="net.tutsplus.com/articles/interviews/an-interview-with-dojo-toolkit-creator-dylan-schiemann">An Interview with Dojo Toolkit Creator Dylan Schiemann</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://www.piotrwalat.net/using-jquery-ui-progress-bar-with-mvvm-knockout-and-web-workers/" title="www.piotrwalat.net/using-jquery-ui-progress-bar-with-mvvm-knockout-and-web-workers">Using jQuery UI's Progress Bar With MVVM, Knockout and Web Workers</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://ruben.verborgh.org/blog/2012/08/13/javascript-module-loaders-necessary-evil/" title="ruben.verborgh.org/blog/2012/08/13/javascript-module-loaders-necessary-evil">JavaScript Module Loaders: A Necessary Evil?</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Code and Libraries</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://justgage.com/" title="justgage.com">JustGage: JavaScript and SVG-powered Gauges</a></strong><br /><span style="font-size: 0.9em">
+JavaScript plugin for generating and animating nice, clean gauges. It's based on the popular Raphael library for vector drawing with SVG.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="http://blog.nodejs.org/2012/08/15/node-v0-8-7-stable/" title="blog.nodejs.org/2012/08/15/node-v0-8-7-stable">Node.js 0.8.7 (Stable) Released</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://airbnb.github.com/infinity/" title="airbnb.github.com/infinity">Infinity.js: A UITableView for the Web</a></strong><br /><span style="font-size: 0.9em">
+UITableView is a commonly used list control on iOS and Airbnb's Infinity.js brings it power to the Web to speed up scrolling through long lists and keeping your infinite feeds smooth and stable for your users. 
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="https://github.com/Dlom/favicon.js" title="github.com/Dlom/favicon.js">favicon.js: Tiny Library for Dynamically Changing A Page's Favicon</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://loadreport.wesleyhales.com/report.html" title="loadreport.wesleyhales.com/report.html">loadreport.js: Get A Report of DOM and Resource Loading Times</a></strong><br /><span style="font-size: 0.9em">
+Usable as a remote service or a Node.js script downloaded to your own machine, loadreport.js uses PhantomJS to build a report of DOM and resource loading times for a Web page.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://browserver.org/#" title="browserver.org/#">Browserver: A Pseudo-Node.js HTTP Server in Your Browser</a></strong><br /><span style="font-size: 0.9em">
+A clever experiment that uses Socket.io to allow your Web browser to serve Web pages over a publicly accessible URL. A cute tech demo.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="https://github.com/wachunga/omega" title="github.com/wachunga/omega">Omega: Node-based Realtime Issue Tracker</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://felix-kling.de/JSNetworkX/" title="felix-kling.de/JSNetworkX">JSNetworkX: JS Port of a Popular Python Graphing Library</a></strong><br /><span style="font-size: 0.9em">
+A port of the popular Python graph library NetworkX which is used for the creation, manipulation, and study of the structure, dynamics, and function of complex networks.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="https://github.com/indutny/vock" title="github.com/indutny/vock">Vock: OS X-only Voice Over IP using Node 0.8</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://brian.io/lawnchair/" title="brian.io/lawnchair">Lawnchair: Simple JSON Storage</a></strong><br /><span style="font-size: 0.9em">
+Bills itself as a 'super micro tiny storage' system using JSON, or a lightweight CouchDB, if you will. Handy for HTML5 mobile apps that need a lightweight, simple and elegant persistence solution.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://thoughtleadr.github.com/Sasquatch/" title="thoughtleadr.github.com/Sasquatch">Sasquatch: jQuery + Templates + Closure == Desktop Calibre Webapps</a></strong><br /><span style="font-size: 0.9em">
+Sasquatch aims to let you use jQuery's rich plugin ecosystem along with readable HTML templates to create 'desktop-calibre webapps'.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="https://github.com/jasonmoo/t.js" title="github.com/jasonmoo/t.js">t.js: Tiny Javascript Templating Framework (400 bytes gzipped)</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://vic.github.com/NoR/" title="vic.github.com/NoR">NoR: A JavaScript Reactive Programming Engine</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Jobs</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://chute.theresumator.com/apply/cjvLn5/RailsNodeJS-Engineer.html " title="chute.theresumator.com/apply/cjvLn5/RailsNodeJS-Engineer.html ">NodeJS/Rails Engineer at Chute (San Francisco, CA) </a></strong><br /><span style="font-size: 0.9em">We're looking for a badass full-stack engineer to join our growing engineering team.  We have a fast-paced, fun team and a highly collaborative culture.  You're versed in all things Node, JS, Ruby, and Rails.  You relish solving problems at scale.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://goldstar.catchthebest.com/apply/31c2/a666" title="goldstar.catchthebest.com/apply/31c2/a666">Javascript Developer on Small Agile Team (Pasadena, CA or Portland, OR)</a></strong><br /><span style="font-size: 0.9em">Work on a small agile team, influence the product requirements, develop a feature and deploy it the same day, and then get home at a reasonable time to hang out with your family and friends.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://cooperpress.com/jobs" title="cooperpress.com/jobs">Post a job in a future issue of JavaScript Weekly here</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Last but not least..</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" last"><strong><a href="http://blogs.msdn.com/b/matt-harrington/archive/2012/08/08/windows-8-virtual-hackathon-august-2012.aspx" title="blogs.msdn.com/b/matt-harrington/archive/2012/08/08/windows-8-virtual-hackathon-august-2012.aspx">Windows 8 Virtual Hackathon: Build an App in JavaScript by August 26</a></strong><br /><span style="font-size: 0.9em">
+Microsoft's Matt Harrington has kicked off a week long Windows 8 'virtual hackathon' where you can build your Windows 8 app using JavaScript and HTML5. Instructions within, and there are prizes.
+</span></p>
+  
+
+
+
+</td></tr>
+
+</table>
+
+</td></tr></table>
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+          <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+          <input type="hidden" name="list_id" value="596bcf37c5" />
+        </form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+
+        <p>Want to advertise? <a href="https://cooperpress.com/mediakit2012.pdf">See our media kit for details.</a>
+  <br />Want to post a job? <a href="https://cooperpress.com/jobs">Use our self serve system</a> or reply to this e-mail.
+</div>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<html><head>
+  <title>JavaScript Weekly Issue 42 - September 2, 2011</title>
+</head>
+<body>
+
+<style>
+table { font-family: helvetica, arial, sans-serif; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #04c; }
+</style>
+<table border="0" cellpadding="0" cellspacing="0" width="620" align="center"><tr bgcolor="#ffffff"><td>
+<p style="border-bottom: 1px solid #ccc; padding-bottom: 8px; font-size: 1.2em"><a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/logosmall.gif" alt="JavaScript Weekly" width="229" height="39" style="margin-bottom: 10px; border: 0" /></a><br /><small>Issue #42 - September 2, 2011</small></p>
+
+<p>Welcome to issue 42 (the ultimate answer to the ultimate question of life, the universe and everything) of <em>JavaScript Weekly</em>. Let's get straight on to the links this week:</p>
+
+<p><big><strong>Headlines</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blog.jquery.com/2011/09/01/jquery-1-6-3-released/">jQuery 1.6.3 Released</a></big></strong><br />The third minor release of jQuery 1.6 has been released. It includes many fixes (including one for an XSS attack vector), handles HTML5 data attribute names better, and is generally a stability and bug-fix release.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.extremetech.com/computing/94532-firefox-9-javascript-performance-improved-by-20-30-with-type-inference">Firefox 9's JavaScript Performance Will Be Improved by 20-30%</a></big></strong><br />Sebastian Anthony of ExtremeTech looks at the latest nightly builds of Firefox 9 and notes that Firefox's JaegerMonkey's JIT compiler's type inference system lands significant performance gains for JavaScript.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://oreilly.com/catalog/9781449307530/">JavaScript Web Applications by Alex MacCaw</a></big></strong><br />Alex MacCaw, creator of the Spine framework, has written a book for O'Reilly called "JavaScript Web Applications." I haven't reviewed it yet but it claims to take proficient JS developers "through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.sencha.com/share-contest">The Sencha Share App Contest</a></big></strong><br />Sencha, the JS and HTML5 framework folks, are running a contest to build a multi-user collaborative app using Sencha's toolkits. You get until late September to build your entry and prizes include a 2011 Nissan Leaf, a big pile o'money, and Apple goods.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/joyent/node/pull/1580">Fix for Node.js's url.parse() Rejected; Causes Drama</a></big></strong><br />Jordan Sissel noted that Node's URL library includes a trailing colon on the protocol of parsed URLs. He made a pull request to fix it but was shot down. A little drama then ensued on the GitHub pull request page.</p>
+
+<p><big><strong>Articles</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://addyosmani.com/largescalejavascript/">Patterns For Large-Scale JavaScript Application Architecture</a></big></strong><br />An epic article by Addy Osmani that discusses a set of effective patterns relevant to the application architecture of large JavaScript applications. There's an absolute ton to go through here and it's sure to become a 'go to' work in the field of JS app architecture.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.hanselman.com/blog/InstallingAndRunningNodejsApplicationsWithinIISOnWindowsAreYouMad.aspx">Installing and Running node.js Apps within IIS on Windows - Are You Mad?</a></big></strong><br />Scott Hanselman talks about the recent advances in using node.js on Windows, especially under Microsoft's IIS server, from the perspective of an existing .NET developer. Lots of useful info here, especially if you're on a Microsoft stack.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://protonet.info/post/9620971736/exception-notifier-javascript">How to Set Up A Cheap Exception Notifier for JavaScript</a></big></strong><br />Christopher Blum demonstrates a few ways to set up an exception notifier so you can track JavaScript errors occurring on your Web sites from afar: using Google Analytics, pushing to your Apache log, or using Airbrake.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://daeken.com/superpacking-js-demos">Superpacking JS Demos (here be seriously clever tricks..)</a></big></strong><br />Cody Brocious gets obsessive about byte counts in this article about packing down your JavaScript to be as tight as possible, ideal if you're entering a 1K demo competition as he did. These techniques are both devious and incredibly clever.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://backbonefu.com/2011/08/filtering-a-collection-in-backbone-js/">Filtering a Collection in Backbone.js</a></big></strong><br /></p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.position-absolute.com/articles/organizing-events-with-jquery/">Organizing Events with jQuery</a></big></strong><br />Cedric Dugas shares a couple of simple code patterns and tips regarding handling events using jQuery, outside of the context of other frameworks.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.developer.com/lang/jscript/top-8-javascript-projects-you-may-not-know.html">Top 8 JavaScript Projects You May Not Know</a></big></strong><br />Developer.com looks at some interesting JavaScript projects, including game builders, PDF readers, a Terminal replacement, and a .NET JavaScript implementation. None of these is particularly obscure but you might enjoy the roundup.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blog.bigbinary.com/2011/08/18/understanding-bind-and-bindall-in-backbone.html">Understanding bind and bindAll in Backbone.js</a></big></strong><br /></p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.sitepoint.com/html5-javascript-open-dropped-files/">How to Open Dragged and Dropped Files Using JavaScript</a></big></strong><br />Craig Buckler demonstrates how to open local files that have been dragged into the browser using JavaScript. (If you want to know more about dragging and dropping in the browser in general, there's a link to a prior article in there too.)</p>
+
+<p><big><strong>Code and Libraries</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/madrobby/keymaster">Keymaster: Micro-library for Defining and Dispatching Keyboard Shortcuts</a></big></strong><br />Keymaster is a library by Thomas Fuchs (of Scriptaculous fame) that's ~60 lines of code but provides a mechanism for defining and dispatching keyboard shortcuts in JavaScript. Two global methods are exposed: 'key' for defining shortcuts and 'keyScope' for switching scope.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://cryptico.wwwtyro.net/">cryptico.js: RSA- and AES- Powered Encryption System in Pure JavaScript</a></big></strong><br /></p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/robtweed/threads">threads: Multi-thread Manager for Node.js</a></big></strong><br />threads is a simple module for enabling and managing a scalable but high-performance multi-threaded environment in Node.js. It can give you a hybrid environment where the many benefits of synchronous coding can be reaped without the risk of blocking the main server thread.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://thechangelog.com/post/9412707640/ghostbuster-headless-testing-with-phantomjs-and-coffeesc">Ghostbuster: Easier Headless Testing with PhantomJS (and CoffeeScript)</a></big></strong><br />Wynn Netherland of The Changelog shows off Ghostbuster, a new tool by Joshua Hull that uses PhantomJS and CoffeeScript to do headless testing of Web applications.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/mixu/nwm">nwm: A Window Manager Written in Node</a></big></strong><br />nwm is an entire window manager for X written during this week's Node Knockout competition. It's not just JavaScript code, though, as the underlying X11 bindings are written as a Node native extension in C.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://labnotes.org/2011/09/01/sideline-a-coffeescript-shell-for-your-server/">Sideline: A CoffeeScript Shell for Your Server</a></big></strong><br /></p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://robertwhurst.github.com/Red-Locomotive/">Red Locomotive - Give your games some tractive effort!</a></big></strong><br />Red Locomotive is a JavaScript game engine for complex 2d and/or isometric games. It give developers the tractive effort they need by abstracting complex systems like game loops, pixel/cursor based events, frame rate management, sprite rendering, animation, and much more.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/marcuswestin/WebViewJavascriptBridge">A WebView-JavaScript Bridge for iOS Developers</a></big></strong><br /></p>
+
+<p><big><strong>Last but not least..</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://nodeknockout.com/">The Node Knockout Leaderboard</a></big></strong><br />The famed 48 hour Node.js contest Node Knockout took place last week and the entries are currently being judged. Want to see some hot, fresh Node.js projects? This is a great place to start.</p>
+
+
+
+
+</td></tr></table>
+
+</body>
+</html>

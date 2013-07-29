@@ -1,0 +1,233 @@
+<html><head>
+  <title>JavaScript Weekly Issue 101 - October 19, 2012</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<style>
+html {  }
+body { font-family: "Helvetica Neue", helvetica, arial, sans-serif; font-size: 14px; margin: 0; padding: 0; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+     body {
+          padding: 10px !important;
+     }
+	#maintable {
+		width: auto !important;
+	}
+}
+.notinarchive { display: none; }
+</style>
+
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+  <h1 class="title" style="margin-top: 0em; padding-top: 0.5em; position: relative; color: #0aa; font-size: 2.9em">JavaScript <img src="http://javascriptweekly.com/cog.png" style="position: absolute; top: 50%; margin-top: -8px" /><div style="width: 38px; height: 1px; display: inline-block"></div>Weekly</h1>
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+  	      <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+  				<input type="hidden" name="list_id" value="596bcf37c5" />
+  			</form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+</div>
+
+<table style="font-family: helvetica, arial, sans-serif;" width="100%" cellpadding="8" cellspacing="0"><tr>
+	<td bgcolor="#ffffff">
+	  
+<table border="0" cellpadding="0" cellspacing="0" width="640" id="maintable" align="center" style="font-family: helvetica, arial, sans-serif; margin-top: 3px">
+	<tr bgcolor="#00aaac"><td>
+<a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/jslogo2.gif" alt="JavaScript Weekly" width="366" height="78" style="margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor="#ffffff"><td>
+	<p style="color: #0aa; font-weight: bold; font-size: 15px; margin-bottom: 0; padding: 0 0px; margin-top: 3px">Issue #101 - October 19, 2012</p>
+	
+	
+
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Featured</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching "><strong><a href="http://www.meteor.com/blog/2012/10/17/meteor-050-authentication-user-accounts-new-screencast" title="www.meteor.com/blog/2012/10/17/meteor-050-authentication-user-accounts-new-screencast">Meteor 0.5.0 Released: Authentication, User Accounts and a New Screencast</a></strong><br /><span style="font-size: 0.9em">
+Meteor is an interesting JavaScript-based platform that's caught a lot of people's interest lately. One big criticism was its security but this release includes 'everything necessary to build and deploy secure applications using Meteor.' There's a new screencast to watch that shows it all off, too.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.quirksmode.org/blog/archives/2012/10/javascript_libr_1.html" title="www.quirksmode.org/blog/archives/2012/10/javascript_libr_1.html">JavaScript Library Poll Results: What Libraries Are We Using?</a></strong><br /><span style="font-size: 0.9em">
+Peter-Paul Koch shares the results of a poll of 3,350 JavaScript developers' library usage. Unsurprisingly, jQuery is on top, but where's your library of choice?
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" headlines solo"><a href="http://news.dartlang.org/2012/10/dart-m1-release.html" title="news.dartlang.org/2012/10/dart-m1-release.html">Celebrating Dart's Birthday with the First Release of the Dart SDK</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">From our Sponsor</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><a href="http://www.jseverywhere.org/"><img src="http://s3.cooperpress.com.s3.amazonaws.com/jseverywhere.jpg" width="125" height="126" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://www.jseverywhere.org/" title="www.jseverywhere.org">JavaScript Everywhere Conference</a></strong><br /><span style="font-size: 0.9em">Join hundreds of JavaScript developers in Silicon Valley on October 26-27 at JS.everywhere(2012). Talks from ebay, Mozilla Labs, PubNub, Red Hat, Telerik, Coursera, Microsoft, Adobe, and MongoLab. Also includes JavaScript lessons for beginners.<br><br><em>$50 discount by using the promo code:</em> JSweekly</span></p>
+  
+
+
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Reading</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.nczonline.net/blog/2012/10/16/does-javascript-need-classes/" title="www.nczonline.net/blog/2012/10/16/does-javascript-need-classes">Does JavaScript Need Classes?</a></strong><br /><span style="font-size: 0.9em">
+ECMAScript 6 is going to have direct support for classes, but JavaScript guru Nicholas C Zakas asks if we really need them.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="https://gist.github.com/3916350" title="gist.github.com/3916350">Rendering HTML Templates Obsolete with JavaScript</a></strong><br /><span style="font-size: 0.9em">
+Jed Schmidt doesn't see much value in client-side HTML templates anymore and ponders the benefits of templates written in JavaScript. With this in mind, he's built a DOM library called dom-o that unifies markup and style into JavaScript syntax.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="https://blog.mozilla.org/javascript/2012/10/15/the-ins-and-outs-of-invalidation/" title="blog.mozilla.org/javascript/2012/10/15/the-ins-and-outs-of-invalidation">The Ins and Outs of (JIT) Invalidation</a></strong><br /><span style="font-size: 0.9em">
+Mozilla's Kannan Vijayan presents a technical, but very accessible, overview of 'invalidation', a technique used by JIT compilers (a present in modern JavaScript engines) to mark compiled code as unusable when conditions in the program change. An enjoyable higher-end read.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://dailyjs.com/2012/10/15/preparing-for-esnext/" title="dailyjs.com/2012/10/15/preparing-for-esnext">ECMAScript 6 in Node.js</a></strong><br /><span style="font-size: 0.9em">
+Over at DailyJS, Alex Young considers the forthcoming ECMAScript 6 and its new features and explains how to use some of its features in Node.js today. For other features, a handy list of shims is given in the comments section.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://javascriptplayground.com/blog/2012/10/making-your-library-amd-compliant" title="javascriptplayground.com/blog/2012/10/making-your-library-amd-compliant">Making Your Library AMD Compliant</a></strong><br /><span style="font-size: 0.9em">
+The Asynchronous Module Definition (AMD) - as supported by Require.js - is a popular way to modularize code in JavaScript, pending native support. Here, Jack Franklin covers how to make a JavaScript library AMD compliant and publish it using Jam.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.h-online.com/open/news/item/Mozilla-adds-sweetener-to-JavaScript-1729572.html" title="www.h-online.com/open/news/item/Mozilla-adds-sweetener-to-JavaScript-1729572.html">Mozilla Adds Sweetener to JavaScript</a></strong><br /><span style="font-size: 0.9em">
+We first linked to the preview in JSW #97 but Mozilla's 'Sweet' JavaScript syntax macro system is growing up fast. Learn more here.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://thecssninja.com/demo/macros/" title="thecssninja.com/demo/macros">Try JavaScript Syntax Macros with Sweet.js in the Browser</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://tympanus.net/codrops/2012/10/11/real-time-geolocation-service-with-node-js/" title="tympanus.net/codrops/2012/10/11/real-time-geolocation-service-with-node-js">How to Build a Real-Time Geolocation Service with Node.js</a></strong><br /><span style="font-size: 0.9em">
+A tutorial digging into building a real-time app that shows the locations of visitors on an interactive map. Uses Node.js and the HTML5 Geolocation API.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.2ality.com/2012/10/river-trail-firefox.html" title="www.2ality.com/2012/10/river-trail-firefox.html">Parallel Programming Via River Trail Coming to Firefox</a></strong><br /><span style="font-size: 0.9em">
+Work has begun on a Firefox-based implementation of Intel's 'River Trail' idea for functional, parallel programming in JavaScript. Dr. Axel Rauschmayer sums it up (check out the article from his first link if you want a lot more detail).
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading solo"><a href="http://dan.iel.fm/xkcd/" title="dan.iel.fm/xkcd">XKCD/Handdrawn-style Plots in D3.js</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://ahrengot.com/tutorials/greensock-javascript-animation/" title="ahrengot.com/tutorials/greensock-javascript-animation">JavaScript Animation Tutorial with the Greensock Framework</a></strong><br /><span style="font-size: 0.9em">
+Originally, Greensock was a popular Flash-only animation library but now it's available in JavaScript and this short set of examples with code shows off some basic usage.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://dailyjs.com/2012/10/18/testacular/" title="dailyjs.com/2012/10/18/testacular">Totally Testacular (What AngularJS Uses for Testing)</a></strong><br /><span style="font-size: 0.9em">
+Testacular bills itself as a 'spectacular test runner for JavaScript'. It's framework agnostic but was primarily built so that AngularJS had a better test system. AngularJS has now switched 100% to Testacular so DailyJS's Alex Young takes a deeper look.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.codeproject.com/Articles/477689/JavaScript-Machine-Learning-and-Neural-Networks-wi" title="www.codeproject.com/Articles/477689/JavaScript-Machine-Learning-and-Neural-Networks-wi">Machine Learning and Neural Networks in JavaScript with Encog</a></strong><br /><span style="font-size: 0.9em">
+Learn about using the Encog framework to pull off some basic machine learning techniques in JavaScript. Covers simple OCR, genetic algorithms, and neural networks.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://stackoverflow.com/q/234683/3951" title="stackoverflow.com/q/234683/3951">How is JavaScript's Array.sort implemented in browsers?</a></strong><br /><span style="font-size: 0.9em">
+It's good old mergesort for Mozilla but WebKit's engine has a surprise up its sleeve..
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Watching</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching "><strong><a href="http://www.youtube.com/watch?v=AkjcxlAuyLI" title="www.youtube.com/watch?v=AkjcxlAuyLI">Yehuda Katz on ECMAScript 6</a></strong><br /><span style="font-size: 0.9em">
+The creator of Ember.js reflects on how ES6 (a.k.a. ECMAScript.next) will be making things better for JavaScript developers.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching"><strong><a href="http://searls.testdouble.com/2012/10/13/say-hello-to-lineman/" title="searls.testdouble.com/2012/10/13/say-hello-to-lineman">Say Hello to Lineman: Tool for Bootstrapping Fat Client Webapp Projects</a></strong><br /><span style="font-size: 0.9em">
+A short screencast introduction to a new Grunt-based tool for bootstrapping fat-client webapp projects. Handles live compilation of templates, CoffeeScript, and Less, provides a development server, minifies CSS and JavaScript, and more.
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Code and Libraries</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://www.yuiblog.com/blog/2012/10/17/yui-3-7-3-windows-8-apps-and-ie-10/" title="www.yuiblog.com/blog/2012/10/17/yui-3-7-3-windows-8-apps-and-ie-10">YUI 3.7.3: Gets Windows 8 Apps and IE 10 Support</a></strong><br /><span style="font-size: 0.9em">
+The latest version of YUI is out and adds IE10 and Windows 8 runtimes to its target environments. This post summarizes some of what was involved.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://todomvc.com/" title="todomvc.com">TodoMVC: Helping You Select An MV* Framework</a></strong><br /><span style="font-size: 0.9em">
+Addy Osmani and Sindre Sorhus's TodoMVC project now has a snazzy new homepage and continues to grow with 12 stable and 30 experimental versions of a 'to do' app built using a myriad of JavaScript frameworks.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code "><strong><a href="https://github.com/tildeio/rsvp.js" title="github.com/tildeio/rsvp.js">rsvp.js: Tools for Organizing Asynchronous JS Code</a></strong><br /><span style="font-size: 0.9em">
+Yehuda Katz has released a tiny implementation of Promises/A and a mixin for turning objects into event targets. Works in Node.js and the browser.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code solo "><a href="http://exacttarget.github.com/fuelux/" title="exacttarget.github.com/fuelux">Fuel UX: Extends Twitter Bootstrap With Extra Lightweight JS Controls</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="http://devsmash.com/projects/kwicks" title="devsmash.com/projects/kwicks">Kwicks: jQuery Plugin for 'Sexy Sliding Panels'</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code "><strong><a href="https://github.com/xtuple/orm" title="github.com/xtuple/orm">Postgres Object Relational Map System</a></strong><br /><span style="font-size: 0.9em">
+You can embed JavaScript within PostgreSQL using PLV8 and PORMS takes it a step further by embedding a JavaScript-powered ORM right into the popular database engine.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code "><strong><a href="https://github.com/tokuhirom/node-mruby" title="github.com/tokuhirom/node-mruby">node-mruby: Embedding Ruby into Node.js</a></strong><br /><span style="font-size: 0.9em">
+mruby is a new, embeddable Ruby interpreter and node-mruby makes it possible to embed mruby into Node.js. Currently an experimental prototype.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code "><a href="https://github.com/twolfson/node-jsmin-sourcemap" title="github.com/twolfson/node-jsmin-sourcemap">node-jsmin-sourcemap: JSMin With Sourcemaps</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code "><a href="http://jonobr1.github.com/Physics/" title="jonobr1.github.com/Physics">Physics: Port of Processing's Traer Physics Library into JavaScript</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Jobs</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.practicallygreen.com/jobs" title="www.practicallygreen.com/jobs">Front-End Engineer at Practically Green (Boston, MA)</a></strong><br /><span style="font-size: 0.9em">Practically Green is growing rapidly. We have built a beautifully-designed SAAS platform that's currently shaking up the Fortune 500. We're looking to expand our engineering team so we can deliver on our mission to help people live healthier, greener lives.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="https://squareup.com/jobs?utm_source=newsletter&utm_medium=email&utm_campaign=cooper" title="squareup.com/jobs?utm_source=newsletter&utm_medium=email&utm_campaign=cooper">Software Engineer at Square (San Francisco, CA)</a></strong><br /><span style="font-size: 0.9em">Square is looking for amazing people inspired to reinvent how people pay and get paid. We’re turning everyday transactions into wonderful and human experiences on both sides of the counter.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.dotdigitaljobs.com/" title="www.dotdigitaljobs.com">JavaScript Developer at dotDigital (Croydon, United Kingdom)</a></strong><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://cooperpress.com/jobs" title="cooperpress.com/jobs">Post a job in next week's JavaScript Weekly</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Last but not least..</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" last"><strong><a href="http://jsmentors.com/" title="jsmentors.com">JSMentors: A Friendly Mailing List for JavaScript Discussion</a></strong><br /><span style="font-size: 0.9em">
+First linked in JSW #2 (two years ago!) JSMentors is a mailing list that continues to provide a friendly, non-antagonistic environment to ask questions about and discuss JavaScript and browser scripting topics. Has an enviable set of mentors to help you out so make use of it.
+</span></p>
+  
+
+
+
+</td></tr>
+
+</table>
+
+</td></tr></table>
+
+<div style="text-align: center; background-color: #f6f6f6; border-top: 5px solid #0aa; border-bottom: 5px solid #ddd">
+
+      <h2 class="subhead" style="font-weight: 300; font-size: 1.5em">A free, once-weekly e-mail round-up of JavaScript news and articles.</h2>
+
+  <!-- h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2 -->
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+          <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px; padding: 4px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px; padding: 4px">Sign Me Up!</button>
+          <input type="hidden" name="list_id" value="596bcf37c5" />
+        </form>
+
+        <p class="extra"><strong>ONE</strong> e-mail each Friday. Easy unsubscribe. No spam &mdash; your e-mail address is safe.</p>
+
+        <p>Want to advertise? <a href="https://cooperpress.com/mediakit2012.pdf">See our media kit for details.</a>
+  <br />Want to post a job? <a href="https://cooperpress.com/jobs">Use our self serve system</a> or reply to this e-mail.
+</div>
+
+</body>
+</html>

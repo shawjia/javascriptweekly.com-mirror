@@ -1,0 +1,73 @@
+<html><head>
+  <title>JavaScript Weekly Issue 9 - January 14, 2011</title>
+</head>
+<body>
+
+<style>
+table { font-family: helvetica, arial, sans-serif; }
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #04c; }
+</style>
+<table border="0" cellpadding="0" cellspacing="0" width="620" align="center"><tr bgcolor="#ffffff"><td>
+<p style="border-bottom: 1px solid #ccc; padding-bottom: 8px; font-size: 1.2em"><a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/logosmall.gif" alt="JavaScript Weekly" width="229" height="39" style="margin-bottom: 10px; border: 0" /></a><br /><small>Issue #9 - January 14, 2011</small></p>
+
+<p>Welcome to issue 9 of <em>JavaScript Weekly</em> - let's get right to it..</p>
+
+<p><big><strong>This week's top news</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.yuiblog.com/blog/2011/01/12/announcing-yui-3-3-0/">YUI 3.3.0 Released: Lots of New Features</a></big></strong><br />The YUI team has unveiled YUI 3.3.0. It comes with Firefox 4, IE9, and Android 2.2 support, an autocomplete widget, rewritten charting tools, a DataTable widget, a 'Dial' widget, and more.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://groups.google.com/group/nodejs/browse_thread/thread/20494c1796e91bf6?hl=en">Node 0.3.4 Released with Experimental HTTPS Support</a></big></strong><br />Ryan Dahl has announced the release of Node 0.3.4. It includes a built in debugger as well as all-new HTTPS server support. There's a link to a code snippet demonstrating how it all works; it's very simple.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://blog.mozilla.com/rob-sayre/2011/01/12/es5-strict-mode/">Firefox 4 Nightly Build Now Supports ECMAScript 5 'Strict Mode'</a></big></strong><br />Rob Sayre of Mozilla notes that the latest Firefox 4 nightly builds now have support for ES5 Strict Mode making Firefox the first major browser to pass a suite of strict mode tests. There's a link to a Douglas Crockford article about strict mode too, in case you need to swot up.</p>
+
+<p><big><strong>This week's top articles</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://whereswalden.com/2011/01/10/new-es5-strict-mode-support-new-vars-created-by-strict-mode-eval-code-are-local-to-that-code-only/">New ECMAScript 5 Feature: Variable Scope in Evals are Local in Strict Mode</a></big></strong><br />Jeff Walden shows off an ECMAScript 5 'strict mode' feature where eval can no longer introduce or delete bindings. This means new variables defined in 'eval' situations cannot overwrite existing variables in the calling scope.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/">Emphasis Update and Source: A NYTimes Release</a></big></strong><br />New York Times developer Michael Donohoe discusses the paper's 'Emphasis' feature - where a paragraph specific anchor link can result in highlighted text in articles and blog posts. Oh, and they've open sourced it too!</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.reddit.com/r/javascript/comments/f094j/list_of_js_game_engines_community_effort/">A List of JavaScript Game Engines</a></big></strong><br />Redditors are working on a list table of JavaScript game development engines. It's up to about 50 links so far. Some more are listed in the comments too.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://7shifts.com/blog/yui-loader-managing-custom-javascript-css-dependencies/">YUI Loader: Managing custom JavaScript & CSS dependencies</a></big></strong><br />Jordan Boesch has put together a brief tour of dependency management in YUI using the YUI3 Loader. He shows off an example based on his work with his YUI-powered webapp, 7shifts.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.metaskills.net/2010/7/9/interactive-javascript-console-with-textmate">An Interactive JavaScript Console on OS X with TextMate</a></big></strong><br />It's from July 2010 (sorry) but it impressed me.. did you know there's a command-line JavaScript console in OS X? Neither did I and this article shows you how to access it and tie it up to TextMate.</p>
+
+<p><big><strong>Interesting new libraries and code</strong></big></p>
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://mir.aculo.us/2011/01/09/the-dom-monster-is-now-open-source/">The DOM Monster is Now Open Source</a></big></strong><br />Thomas Fuchs has open sourced The DOM Monster, an interesting JavaScript performance tool that will analyze the DOM on the page you're on and give you some useful hints and tips relating to performance.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://www.zachleat.com/web/2011/01/11/bigtext-makes-text-big/">BigText Makes Text Big (In A Stylish Way)</a></big></strong><br />BigText is a jQuery plugin by Zach Leatherman that can render text at varying sizes to fit a parent element. It's a striking visual effect and has a great demo page.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://arborjs.org/">arbor.js: Web Worker Powered Graph Visualization</a></big></strong><br />Arbor is a graph visualization library built with web workers and jQuery. Rather than trying to be an all-encompassing framework, arbor provides an efficient, force-directed layout algorithm plus abstractions for graph organization and screen refresh handling.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/kriyative/clojurejs">clojurejs: A Clojure to JavaScript Translator</a></big></strong><br />clojurejs is a naive implementation of JavaScript translator for a subset of the Clojure language. clojurejs is an attempt to implement the predictable semantics in the generated Javascript.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/quickleft/monkeyfist">MonkeyFist: A jQuery 'micro-framework' for Initialization</a></big></strong><br />MonkeyFist is a jQuery powered 'micro framework' focusing on code initialization and callback chains. Its main use is for clean, orderly pre-DOM and document-ready callback initialization.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="http://timcameronryan.com/post/2684769192/mug-javascript-compiler-for-the-jvm">Mug: JavaScript Compiler for the JVM</a></big></strong><br />Mug is a new attempt at a JavaScript compiler for the JVM. It implements much of the ECMAScript 3 spec but is still a work in progress. Looks promising though. The developer already has it compiling code that's then running on the Android platform.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/grantgalitz/GameBoy-Online">GameBoy Emulator in JavaScript</a></big></strong><br />GameBoy-Online is a GameBoy Color emulator written in JavaScript that strives for performance and near-perfect compatibility. The main JavaScript file is over 7000 lines long.. whoa.</p>
+
+
+    <p style="margin-left: 1.5em"><strong><big><a href="https://github.com/OscarGodson/jQuery-Plugin-Skeleton">jQuery Plugin Skeleton</a></big></strong><br />This 'does what it says on the tin'! It's skeleton/template code by Oscar Godson that you can use as the base for your own jQuery plugin.</p>
+
+
+
+
+</td></tr></table>
+
+</body>
+</html>

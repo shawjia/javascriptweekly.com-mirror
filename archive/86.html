@@ -1,0 +1,226 @@
+<html><head>
+  <title>JavaScript Weekly Issue 86 - July 6, 2012</title>
+<!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=24662,
+settings_tolerance=2000,
+library_tolerance=1500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+
+</head>
+<body style="margin-top: 20px">
+
+<style>
+p { margin: 1.2em 0em 1.35em 0em; line-height: 1.4em; }
+a { color: #1144bb; }
+@media only screen and (max-device-width: 480px) {
+     body {
+          padding: 10px !important;
+     }
+	#maintable {
+		width: auto !important;
+	}
+}
+.notinarchive { display: none; }
+</style>
+
+
+<center>
+  <h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2>
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+  	      <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px">Sign Up!</button>
+  				<input type="hidden" name="list_id" value="596bcf37c5" />
+  			</form>
+</center>
+
+<table style="font-family: helvetica, arial, sans-serif;" width="100%" cellpadding="8" cellspacing="0"><tr>
+	<td bgcolor="#ffffff">
+	  
+<table border="0" cellpadding="0" cellspacing="0" width="640" id="maintable" align="center" style="font-family: helvetica, arial, sans-serif; margin-top: 3px">
+	<tr bgcolor="#00aaac"><td>
+<a href="http://javascriptweekly.com/"><img src="http://javascriptweekly.com/jslogo2.gif" alt="JavaScript Weekly" width="366" height="78" style="margin-bottom: 0px; border: 0" /></a>
+</td></tr>
+<tr bgcolor="#ffffff"><td>
+	<p style="color: #0aa; font-weight: bold; font-size: 15px; margin-bottom: 0; padding: 0 0px; margin-top: 3px">Issue #86 - July 6, 2012</p>
+	
+	
+
+
+<p style="margin: 1.2em 0px 1.35em 0px; line-height: 1.5em; font-size: 14px">Welcome to issue 86 of <em>JavaScript Weekly</em>. I'm experimenting with a few layout changes today - do bear with me :-) - Peter.</p>
+
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Headlines</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" headlines"><strong><a href="http://blog.jquery.com/2012/07/01/jquery-1-9-and-2-0-tldr-edition/" title="blog.jquery.com/2012/07/01/jquery-1-9-and-2-0-tldr-edition">jQuery 1.9 and 2.0: The TL;DR Edition</a></strong><br /><span style="font-size: 0.9em">
+After last week's news about the future of jQuery 1.9 and 2.0 (namely, 2.0's dropping of support for IE 6, 7 and 8) there was a lot of misunderstanding. This short post aims to clear up the sticking points.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching"><strong><a href="http://www.youtube.com/watch?v=UJPdhx5zTaw" title="www.youtube.com/watch?v=UJPdhx5zTaw">Breaking the JavaScript Speed Limit with V8 (in 45 Minutes)</a></strong><br /><span style="font-size: 0.9em">
+From Google I/O 2012, a talk by Google V8 tech lead Daniel Clifford on raw JavaScript execution performance and how to leverage V8 to optimize your JavaScript for peak performance. A good talk with lots to learn.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://www.wakanda.org/wakanda-production-release-get-it-now" title="www.wakanda.org/wakanda-production-release-get-it-now">First Production Release of Wakanda Released</a></strong><br /><span style="font-size: 0.9em">
+Wakanda is a full end-to-end JavaScript stack and toolkit (right down to a server, database, and even an IDE) that's been in beta for a while. The first full release is now out.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="http://blog.nodejs.org/2012/06/29/node-v0-8-1-stable/" title="blog.nodejs.org/2012/06/29/node-v0-8-1-stable">Node 0.8.1 Released</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">From Our Sponsor</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><a href="http://www.mightydeals.com/deal/how-to-make-iphone-apps.html?ref=jsweeklyiphonecourse"><img src="http://javascriptweekly.com/images/iphone.gif" width="125" height="125" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://www.mightydeals.com/deal/how-to-make-iphone-apps.html?ref=jsweeklyiphonecourse" title="www.mightydeals.com/deal/how-to-make-iphone-apps.html?ref=jsweeklyiphonecourse">How to Make iPhone Apps: 3 Day Online Course</a></strong><br /><span style="font-size: 0.9em">
+If you're familiar with programming and Object-Oriented Programming, this course is for you. You'll need a Mac computer with OSX Lion installed, but once you sign up you can take this 3-day online class at your own pace. The classes are taught by Shawn Arney, an iPhone professional developer with over 15 years experience.
+</span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Reading</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://www.twilio.com/blog/2012/06/build-a-phone-controlled-robot-using-node-js-arduino-rn-xv-wifly-arduinoand-twilio.html" title="www.twilio.com/blog/2012/06/build-a-phone-controlled-robot-using-node-js-arduino-rn-xv-wifly-arduinoand-twilio.html">How to Build a Phone-Controlled Robot Using Arduino, Twilio and Node.js</a></strong><br /><span style="font-size: 0.9em">
+Instructions for building a basic robot that can be controlled from a phone's keypad using the Twilio telephony service and powered by Node.js and Arduino. A weekend project and a half!
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://ariya.ofilabs.com/2012/07/lazy-parsing-in-javascript-engines.html" title="ariya.ofilabs.com/2012/07/lazy-parsing-in-javascript-engines.html">Lazy Parsing in JavaScript Engines</a></strong><br /><span style="font-size: 0.9em">
+Ariya Hidayat digs into how JavaScript parsers can defer the parsing of code in order to improve startup performance. Fun geeky stuff.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://james.padolsey.com/javascript/replacing-text-in-the-dom-solved/" title="james.padolsey.com/javascript/replacing-text-in-the-dom-solved">Replacing Text in the DOM... Solved?</a></strong><br /><span style="font-size: 0.9em">
+James Padolsey circles around an interesting and common problem before showing off findAndReplaceDOMText, a function that searches for regex matches in a DOM node and wraps all matches (and portions of matches).
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://jeremyckahn.github.com/blog/2012/07/01/treating-javascript-like-a-30-year-old-language/" title="jeremyckahn.github.com/blog/2012/07/01/treating-javascript-like-a-30-year-old-language">Treating JavaScript Like A 30 Year Old Language</a></strong><br /><span style="font-size: 0.9em">
+Starting an article with "I don't like JavaScript" is a brave way for Jeremy Kahn to go, but in this post he shares his love for Google's JavaScript style guide and explains how treating his JavaScript as if it were C works for him.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://www.2ality.com/2012/07/large-integers.html" title="www.2ality.com/2012/07/large-integers.html">Working With Large Integers in JavaScript</a></strong><br /><span style="font-size: 0.9em">
+Dr Axel Rauschmayer looks at JavaScript's numerical limitations and demonstrates some workarounds for large integers.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://javascriptplayground.com/blog/2012/07/package-management-with-jam-js" title="javascriptplayground.com/blog/2012/07/package-management-with-jam-js">Package Management for the Browser with Jam</a></strong><br /><span style="font-size: 0.9em">
+Jam is a new browser-focused Javascript package manager. This post from the JavaScript Playground shows it off in a practical way.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://blog.parse.com/2012/06/28/free-automated-cross-browser-javascript-testing/" title="blog.parse.com/2012/06/28/free-automated-cross-browser-javascript-testing">Automated Cross-Browser JavaScript Testing</a></strong><br /><span style="font-size: 0.9em">
+Bryan Klimt of Parse.com explains one way to set up automated JavaScript testing using Firefox, Chrome, iOS, Android, and IE on an OS X development machine.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="https://www.getbridge.com/blog/ie6chatserver" title="www.getbridge.com/blog/ie6chatserver">Using Internet Explorer 6 as a Chat Server with Bridge</a></strong><br /><span style="font-size: 0.9em">
+Described as a "a fully-functioning joke", this IE6 based JavaScript chat server shows off Bridge, an RPC messaging framework for building modular, scalable cross-language applications.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://www.2ality.com/2012/06/continuation-passing-style.html" title="www.2ality.com/2012/06/continuation-passing-style.html">Asynchronous Programming and Continuation-Passing Style in JavaScript</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://blog.jquery.com/2012/07/04/the-new-sizzle/" title="blog.jquery.com/2012/07/04/the-new-sizzle">The New Sizzle (in jQuery)</a></strong><br /><span style="font-size: 0.9em">A run through the improvements in the latest rewrite of Sizzle, jQuery's CSS selector engine.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools/" title="coding.smashingmagazine.com/2012/06/12/javascript-profiling-chrome-developer-tools">JavaScript Profiling With The Chrome Developer Tools</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" reading"><strong><a href="http://net.tutsplus.com/tutorials/javascript-ajax/5-awesome-angularjs-features/" title="net.tutsplus.com/tutorials/javascript-ajax/5-awesome-angularjs-features">5 Awesome AngularJS Features</a></strong><br /><span style="font-size: 0.9em">
+Still not given Google's AngularJS a look? Lukas Ruebbelke tries his best to sell us on it at the high level.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  reading"><a href="http://www.smartjava.org/content/render-geographic-information-3d-threejs-and-d3js" title="www.smartjava.org/content/render-geographic-information-3d-threejs-and-d3js">Render Geographic Information in 3D with Three.js and D3.js</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Watching</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching"><strong><a href="http://wekeroad.com/2012/07/04/try-it-quiet" title="wekeroad.com/2012/07/04/try-it-quiet">Try It Quiet: Rob Conery's Brave, Silent Node.js Talk</a></strong><br /><span style="font-size: 0.9em">
+At the recent Norwegian Developers' Conference, Rob Conery gave a 'silent talk' focused entirely on him live coding an API with Node.js. You can watch the talk here but he also shares some insights on this unusual approach.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.youtube.com/watch?v=Trr95ij1358" title="www.youtube.com/watch?v=Trr95ij1358">JavaScript: Enter The Dragon</a></strong><br /><span style="font-size: 0.9em">In 30 minutes, Dmitry Baranovskiy attempts to demystify JavaScript. He walks through 'essential bits' of the language including types, operators, objects and primitives, functions and prototypes. Note: The first few minutes of audio are poor.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  watching"><a href="http://www.youtube.com/watch?v=1061osd0G_U" title="www.youtube.com/watch?v=1061osd0G_U">Why Your Client-Side Framework Deserves A Build Chain [9 mins]</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" watching solo"><a href="http://www.youtube.com/watch?v=UJPdhx5zTaw" title="www.youtube.com/watch?v=UJPdhx5zTaw">Breaking the JavaScript Speed Limit with V8 (so good I linked it twice)</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Code and Libraries</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://ivaynberg.github.com/select2/" title="ivaynberg.github.com/select2">Select2: A jQuery-Based Replacement for Select Boxes</a></strong><br /><span style="font-size: 0.9em">
+Select2 brings serious additions to your regular drop-down select boxes including searching, remote data sets, infinite scrolling, and tagging.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://craig.is/killing/mice" title="craig.is/killing/mice">Mousetrap: Library to Handle Keyboard Shortcuts in JavaScript</a></strong><br /><span style="font-size: 0.9em">
+A simple standalone library with no dependencies for handling keyboard input and shortcuts. I love how the demo highlights the code related to what you pressed.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://designwithpc.com/Plugins/ddSlick#?" title="designwithpc.com/Plugins/ddSlick#?">ddSlick: jQuery Plugin for Custom Dropdowns With Integrated Images</a></strong><br /><span style="font-size: 0.9em">
+Lots of demos and examples to play with here but beware of compatibility.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  code"><a href="http://blog.angularjs.org/2012/07/introducing-angularjs-batarang.html" title="blog.angularjs.org/2012/07/introducing-angularjs-batarang.html">Batarang: A Chrome Developer Tools Extension for Debugging AngularJS Apps</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" code"><strong><a href="http://tracelytics.github.com/pageguide/" title="tracelytics.github.com/pageguide">Pageguide: Create Interactive Guides for Your Page Elements</a></strong><br /><span style="font-size: 0.9em">
+Instead of cluttering your pages with static help messages or explanatory text, add a 'pageguide' and let your users learn about new features and functions. The demo is good.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><strong><a href="http://thecodeplayer.com/walkthrough/html5-canvas-experiment-a-cool-flame-fire-effect-using-particles" title="thecodeplayer.com/walkthrough/html5-canvas-experiment-a-cool-flame-fire-effect-using-particles">HTML5 Canvas Experiment: A Flame/Fire Effect Using Particles</a></strong><br /><span style="font-size: 0.9em">
+A simple but striking effect but what I found interesting is you can 'play back' the writing of the code and follow along in its development. An interesting way to learn.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo  "><a href="http://bebraw.github.com/colorjoe/" title="bebraw.github.com/colorjoe">colorjoe: A Scalable Color Picker (Supports Touch and AMD)</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Jobs</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.sitepen.com/about/jobs.html?position=jsengineer" title="www.sitepen.com/about/jobs.html?position=jsengineer">JavaScript Engineer (Remote working - within US)</a></strong><br /><span style="font-size: 0.9em">JavaScript. HTML5. AMD. Node. Dojo. Mobile. Are you excited about building excellent large scale web apps, contributing to open source projects, and working with a team that loves JavaScript? Contact SitePen today. Master the Code.</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://soundcloud.com/jobs/2012-03-28-javascript-engineer-berlin-germany" title="soundcloud.com/jobs/2012-03-28-javascript-engineer-berlin-germany">JavaScript Engineer at SoundCloud (Berlin, Germany)</a></strong><br /><span style="font-size: 0.9em">SoundCloud is looking for an awesome JavaScript Engineer. You've mastered JavaScript and have a serious passion for state of the art web applications. We're pushing modern browsers and HTML5 standards to their limits and we want your help!</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=""><strong><a href="http://www.krux.com/pro/who_we_are/careers/" title="www.krux.com/pro/who_we_are/careers">JavaScript Guru for Well-Funded Startup in SOMA (SF)</a></strong><br /><span style="font-size: 0.9em"></span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="https://cooperpress.com/jobs" title="cooperpress.com/jobs">List your job in a future issue of JavaScript Weekly</a><br /><span style="font-size: 0.9em"></span></p>
+  
+<p style="font-weight: bold; font-size: 20px; margin: 0; border-top: 2px solid #0aa; padding-left: 0px; padding-top: 4px; margin-top: 24px; margin-bottom: 0px; color: #0aa;clear:both">Last but not least..</p>
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class=" "><a href="http://play-ttd.com/"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/4343/thumb_openttd.png" width="133" height="100" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a><strong><a href="http://play-ttd.com/" title="play-ttd.com">Transport Tycoon Ported to JavaScript with Emscripten</a></strong><br /><span style="font-size: 0.9em">
+OpenTTD, an open source clone of the popular mid 90s sim Transport Tycoon, has been compiled, passed through Emscripten (the LLVM to JavaScript compiler) and now runs direct in the browser.
+</span></p>
+  
+
+    <p style="margin: 1.2em 0px 1.2em 0px; line-height: 1.4em; clear:both; font-size: 15px" class="solo"><a href="http://html5weekly.com/" title="html5weekly.com">HTML5 Weekly: JavaScript Weekly's Browser Technology Sister Newsletter</a><br /><span style="font-size: 0.9em"></span></p>
+  
+
+
+
+</td></tr>
+
+</table>
+
+</td></tr></table>
+
+<center>
+  <h2 style="font-family: helvetica; color: #0aa; font-size: 20px;">Subscribe to JavaScript Weekly</h2>
+  <form class="subscribe" action="http://javascriptweekly.com/subscribe.js" method="POST">
+  	      <span class="label" style="display: none">Your E-mail Address&nbsp;</span> <input type="email" placeholder="Enter your e-mail address" class="email" style="width: 340px; font-size: 16px" name="email" id="email" />&nbsp;&nbsp;<button class="large blue awesome" type="submit" style="font-size: 16px">Sign Me Up!</button>
+  				<input type="hidden" name="list_id" value="596bcf37c5" />
+  			</form>
+</center>
+
+</body>
+</html>
